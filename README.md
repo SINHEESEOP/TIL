@@ -2,7 +2,7 @@
 :wink: Today I Learned. 그날 그날 모든 활동들을 노션으로 정리합니다. <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">전체 노션 링크</a>
 
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
-<a href="https://different-stay-3f0.notion.site/Final-8e4290b128034540892d2499d4f1c476?pvs=4">2024-06-26 : Final 제어자. -  </a><br>
+<a href="https://different-stay-3f0.notion.site/Final-8e4290b128034540892d2499d4f1c476?pvs=4">2024-06-26 : Final 제어자. </a><br>
 <a href="https://different-stay-3f0.notion.site/JVM-static-5b47e28600ff499b9b6e0e2e0a74ddfd?pvs=4">2024-06-26 : JVM & 자바 메모리 구조(2) - Method 영역과 static 과 그외 영역 </a><br>
 <a href="https://different-stay-3f0.notion.site/JVM-static-5b47e28600ff499b9b6e0e2e0a74ddfd?pvs=4">2024-06-24 : JVM & 자바 메모리 구조(2) - 스택영역과 힙영역, 둘의 차이점.</a><br>
 <a href="https://different-stay-3f0.notion.site/JVM-static-5b47e28600ff499b9b6e0e2e0a74ddfd?pvs=4">2024-06-21 : JVM & 자바 메모리 구조(1) - 변수의 종류 및 JVM 구동방식 </a><br>
