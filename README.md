@@ -2,7 +2,8 @@
 :wink: Today I Learned. 그날 그날 모든 활동들을 노션으로 정리합니다. <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">전체 노션 링크</a>
 
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
-<a href="https://different-stay-3f0.notion.site/Abstract-dd112ed345b14c96999542276ecb3e9e?pvs=4">2024-06-29 : 추상클래스와 인터페이스 </a><br>
+<a href="https://different-stay-3f0.notion.site/feat-bb0739c927974316ab6c2a2a0d085fbb?pvs=4">2024-07-02 : 인터페이스 </a><br>
+<a href="https://different-stay-3f0.notion.site/Abstract-dd112ed345b14c96999542276ecb3e9e?pvs=4">2024-06-29 : 추상클래스</a><br>
 <a href="https://different-stay-3f0.notion.site/d4bea7aeb80545cebcfc7eb6aa966e6d?pvs=4">2024-06-28 : 다형성 활용한 리팩토링 </a><br>
 <a href="https://different-stay-3f0.notion.site/5bb606607352441e8dface07340c9538?pvs=4">2024-06-27 : 다형성과 캐스팅 - instanceof, getClass().getSimpleName() </a><br>
 <a href="https://different-stay-3f0.notion.site/Final-8e4290b128034540892d2499d4f1c476?pvs=4">2024-06-26 : Final 제어자. </a><br>
