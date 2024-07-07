@@ -2,7 +2,7 @@
 :wink: Today I Learned. 그날 그날 모든 활동들을 노션으로 정리합니다. <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">전체 노션 링크</a>
 
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
-<a href="https://different-stay-3f0.notion.site/682fc931a30b4dda84b97eddb7999157?pvs=4">2024-07-07 : OCP(Open-Closed Principle)와 전략패턴 </a><br>
+<a href="https://different-stay-3f0.notion.site/OCP-Open-Closed-Principle-86f4cdee7e234a4db592704bfea7b36b?pvs=4">2024-07-07 : OCP(Open-Closed Principle)와 전략패턴 </a><br>
 <a href="https://different-stay-3f0.notion.site/682fc931a30b4dda84b97eddb7999157?pvs=4">2024-07-04 : 좋은 객체 지향 프로그래밍이란? </a><br>
 <a href="https://different-stay-3f0.notion.site/feat-bb0739c927974316ab6c2a2a0d085fbb?pvs=4">2024-07-02 : 인터페이스 </a><br>
 <a href="https://different-stay-3f0.notion.site/Abstract-dd112ed345b14c96999542276ecb3e9e?pvs=4">2024-06-29 : 추상클래스</a><br>
