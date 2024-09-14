@@ -2,7 +2,7 @@
 :wink: Today I Learned. 그날 그날 모든 활동들을 노션으로 정리합니다. <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">전체 노션 링크</a>
 
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
-<a href="https://different-stay-3f0.notion.site/Queue-94180a07f05d4a9a92bf1a000b6c151f?pvs=4"> 2024-09-14 : Queue 상속받은 Deque 인터페이스 구현 후 그것을 구현한 클래스인 ArrayDeque 구현.
+<a href="https://different-stay-3f0.notion.site/Queue-94180a07f05d4a9a92bf1a000b6c151f?pvs=4"> 2024-09-14 : Queue 상속받은 Deque 인터페이스 구현 후 그것을 구현한 클래스인 ArrayDeque 구현. <br>
 <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">
 2024-09-13(깜빡해서 14일에 올림) : 너무 많으니 전체링크만 걸겠습니다. -> 시공간 복잡도, 이진탐색, 큐, 스택<br>
 <a href="https://different-stay-3f0.notion.site/597eb924286c4ca2877f53d23f07ac4f?pvs=4">2024-09-10 : CS -> 알고리즘 -> 단순선택정렬, 단순삽입정렬, 퀵정렬, 버블정렬<br>
