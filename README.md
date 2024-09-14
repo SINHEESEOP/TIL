@@ -2,6 +2,7 @@
 :wink: Today I Learned. 그날 그날 모든 활동들을 노션으로 정리합니다. <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">전체 노션 링크</a>
 
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
+<a href="https://different-stay-3f0.notion.site/recursion-f2437db360cd4858ae8e30820f339b83?pvs=4"> 2024-09-14 : 재귀함수 <br>
 <a href="https://different-stay-3f0.notion.site/Queue-94180a07f05d4a9a92bf1a000b6c151f?pvs=4"> 2024-09-14 : Queue 상속받은 Deque 인터페이스 구현 후 그것을 구현한 클래스인 ArrayDeque 구현. <br>
 <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4">
 2024-09-13(깜빡해서 14일에 올림) : 너무 많으니 전체링크만 걸겠습니다. -> 시공간 복잡도, 이진탐색, 큐, 스택<br>
