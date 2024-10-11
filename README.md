@@ -1,7 +1,10 @@
 # TIL
 :wink: Today I Learned. 그날 그날 모든 활동들을 노션으로 정리합니다. <a href="https://different-stay-3f0.notion.site/Graph-107b4c683d7c8093b045e92188848c89?pvs=4">전체 노션 링크</a>
 
+사실 노션을 보시면 매일까진 아니여도 자주 업로드 하지만... 깃에 올리는걸 깜빡했숩니다... 흑.. ㅠ 이렇게 자주 안하지 않아요... 노션 오시면 압니다! <br>
+
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
+<a href="https://different-stay-3f0.notion.site/1-2-114b4c683d7c8025972ff418ded3b664?pvs=4"> 2024-10-11 : 동적 메모리 할당(malloc, calloc, realloc, free), 포인터, 메모리 누수, 변수의 종류 <br>
 <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4"> 2024-09-22 : 위상정렬 <br>
 <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4"> 2024-09-21 : 컴퓨터시스템 1.7 ~ 1장 끝, 그래프 자료구조 + DFS, BFS <br>
 <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4"> 2024-09-15 ~ 18 : 힙정렬, 병합정렬, 도수정렬, Couputer Systems a Programming`s Perspective 시작 ~ 1.7장 까지.<br>
