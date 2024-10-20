@@ -4,7 +4,7 @@
 사실 노션을 보시면 매일까진 아니여도 자주 업로드 하지만... 깃에 올리는걸 깜빡했숩니다... 흑.. ㅠ 이렇게 자주 안하지 않아요... 노션 오시면 압니다! <br>
 
 ## 날짜와 공부한내용 기록 및 상세 노션링크.
-<a href="https://different-stay-3f0.notion.site/CP_9-123b4c683d7c8044bfc4da3d423ee9aa?pvs=4"> 24-10-17 ~ 19 : CSAPP 9 ~ 9.6.4 가상메모리
+<a href="https://different-stay-3f0.notion.site/CP_9-123b4c683d7c8044bfc4da3d423ee9aa?pvs=4"> 24-10-17 ~ 19 : CSAPP 9 ~ 9.6.4 가상메모리 <br>
 <a href="https://different-stay-3f0.notion.site/5-Red-Black-Tree-11bb4c683d7c80d7aa2bc7ec01f1353a?pvs=4">24-10-14 ~ 15 : (레드 블랙 트리의 삽입/삭제, 테스트케이스 풀이 시작 + 함수콜, 시스템), rbtree 함수 구현 및 테스트 케이스 실행 외 기타 등등 <br>
 <a href="https://different-stay-3f0.notion.site/1-2-114b4c683d7c8025972ff418ded3b664?pvs=4"> 2024-10-11 : 동적 메모리 할당(malloc, calloc, realloc, free), 포인터, 메모리 누수, 변수의 종류 <br>
 <a href="https://different-stay-3f0.notion.site/ByuLSeoP_TIL-ea2038ba92924753b8c7dfa6bf570489?pvs=4"> 2024-09-22 : 위상정렬 <br>
