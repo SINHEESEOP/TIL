@@ -346,9 +346,9 @@ class Person {
 
 ### 데이터 추상화 (Data Abstraction)
 
-![데이터 추상화 개념](./images/Untitled.png)
+![데이터 추상화 개념](/images/Untitled.png)
 
-![데이터 추상화 예시](./images/Untitled%201.png)
+![데이터 추상화 예시](/images/Untitled%201.png)
 
 ### 관계
 
@@ -363,7 +363,7 @@ class Person {
 
 - 여러 가지 형태를 가질 수 있는 능력
     
-    ![다형성 개념도](./images/Untitled%202.png)
+    ![다형성 개념도](/images/Untitled%202.png)
     
 
 <aside>
@@ -382,7 +382,7 @@ class Person {
 - 다형적 매개변수
 - 하나의 배열로 여러종류 객체 다루
 
-![매개변수 다형성](./images/Untitled%203.png)
+![매개변수 다형성](/images/Untitled%203.png)
 
 
 ## `중요` : 자바에서의 대입은 항상 변수에 들어 있는 값을 복사해서 전달한다.
@@ -400,7 +400,7 @@ Student student1 = student
 - 참고로 배열도 참조 자료형이다.
 - 단, int 배열 제외.
 
-![배열 접근 방식](./images/Untitled%204.png)
+![배열 접근 방식](/images/Untitled%204.png)
 
 ### 그러면 기본 자료형은 어떻게 처리되나?
 
@@ -455,17 +455,17 @@ public class NullMain1 {
 3. data = null
 ```
 
-![Null 개념도 1](./images/Untitled%208.png)
+![Null 개념도 1](/images/Untitled%208.png)
 
-![Null 개념도 2](./images/Untitled%209.png)
+![Null 개념도 2](/images/Untitled%209.png)
 
 ### GC(가비지컬렉터) - 아무도 참조하지 않는 인스턴스의 최후
 
-![GC 개념도 1](./images/Untitled%205.png)
+![GC 개념도 1](/images/Untitled%205.png)
 
-![GC 개념도 2](./images/Untitled%206.png)
+![GC 개념도 2](/images/Untitled%206.png)
 
-![GC 개념도 3](./images/Untitled%207.png)
+![GC 개념도 3](/images/Untitled%207.png)
 
 data 에 null 을 할당했다. 따라서 앞서 생성한 x001 Data 인스턴스를 더는 아무도 참조하지 않는다. 이렇게 아무도 참조하지 않게 되면 x001 이라는 참조값을 다시 구할 방법이 없다. 따라서 해당 인스턴스에 다시 접근할 방법이 없다.
 
@@ -533,7 +533,7 @@ Exception in thread "main" java.lang.NullPointerException: Cannot read field
 at ref.NullMain3.main(NullMain3.java:10)
 ```
 
-![Null 개념도 1](./images/Untitled%208.png)
+![Null 개념도 1](/images/Untitled%208.png)
 
 **문제해결**
 
@@ -557,7 +557,7 @@ bigData.data=ref.Data@x002
 bigData.data.value=0
 ```
 
-![Null 개념도 2](./images/Untitled%209.png)
+![Null 개념도 2](/images/Untitled%209.png)
 
 ### 정리
 
