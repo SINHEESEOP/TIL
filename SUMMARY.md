@@ -4,4 +4,4 @@
 
 ### [Java](Java)
   - [Java 101](Java/101)
-    - [Java Basics](Java/101/basics.md)
+    - [Java Basics](Java/101/01_Java_basics.md)
