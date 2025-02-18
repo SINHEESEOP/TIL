@@ -15,7 +15,7 @@ We constantly learn new things. This is a repo to share those learnings.
   - [C++ 개발환경구축](C++/101/C++개발_환경_구축.md)
     - [Window](C++/101/Window.md)
   - [C++ 기본 문법](C++/101/C++기본문법.md)
-  - [C++ : 와 :: 의 차이](C++/101/C++와-::의_차이.md)
+  - [C++_콜론과_콜론x2의_차이](C++/101/C++_콜론과_콜론x2의_차이.md)
   - [C++ define 과 Java final static 의 차이](C++/101/C++define_과_final_static의_차이.md)
   - [C++ 메모리 관리](C++/101/C++메모리관리.md)
 
