@@ -18,6 +18,7 @@ We constantly learn new things. This is a repo to share those learnings.
   - [C++_콜론과_콜론x2의_차이](C++/101/C++_콜론과_콜론x2의_차이.md)
   - [C++ define 과 Java final static 의 차이](C++/101/C++define_과_final_static의_차이.md)
   - [C++ 메모리 관리](C++/101/C++메모리관리.md)
+  - [C++ 분할 컴파일(OOP와 비슷하지만 다름)](C++/101/C++분할컴파일(OOP와_비슷하지만_다름).md)
 
 ## 🔍 More Information
 - 이 저장소는 개인적인 학습 내용을 정리하고 공유하기 위한 목적으로 만들어졌습니다.
