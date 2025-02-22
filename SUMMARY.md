@@ -4,12 +4,12 @@
 
 ### Java
   - Java 101
-    - [Java Basics](Java/101/01_Java_basic.md)
-    - [Java Test](Java/101/02_Java_test)
+    - [Java Basics](Java/101/Java_basics.md)
+    - [Java OOP](Java/101/OOP.md)
 
 ### C++
   - C++ 101
-    - [C++ Basics](C++/101/C++개요와_역사.md)
+    - [C++ 개요와 역사](C++/101/C++개요와_역사.md)
     - [C++ 개발환경구축](C++/101/C++개발_환경_구축.md)
       - [Window](C++/101/Window.md)
     - [C++ 기본 문법](C++/101/C++기본문법.md)
