@@ -5,12 +5,12 @@ We constantly learn new things. This is a repo to share those learnings.
 ## 📚 Categories
 
 ### Java
-- Java 101
+- [Java 101](./Java/101/README.md)
   - [Java Basics](./Java/101/Java_basics.md)
   - [Java OOP](./Java/101/OOP.md)
 
 ### C++
-- C++ 101
+- [C++ 101](./C++/101/README.md)
   - [C++ 개요와 역사](./C++/101/C++개요와_역사.md)
   - [C++ 개발환경구축](./C++/101/C++개발_환경_구축.md)
     - [Window](./C++/101/Window.md)
