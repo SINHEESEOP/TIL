@@ -8,6 +8,7 @@ We constantly learn new things. This is a repo to share those learnings.
 - [Java 101](./Java/101/README.md)
   - [Java Basics](./Java/101/Java_basics.md)
   - [Java OOP](./Java/101/OOP.md)
+  - [클래스와 데이터](./Java/101/클래스와데이터.md)
 
 ### C++
 - [C++ 101](./C++/101/README.md)
