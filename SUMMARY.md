@@ -13,6 +13,9 @@
   * [생성자](./Java/101/생성자.md)
   * [접근제어자](./Java/101/접근제어자.md)
   * [변수와 메소드 생성 시기](./Java/101/변수와메소드생성시기.md)
+  * [JVM & JavaMemoryArea & static](./Java/101/JVM&JavaMemoryArea&static.md)
+  * [OS 마다 기계 해석이 다른 이유](./Java/101/OS마다기계해석이다른이유.md)
+
 
 ## C++
 
