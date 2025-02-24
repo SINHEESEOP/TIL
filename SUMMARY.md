@@ -30,12 +30,12 @@
 
 ## Mathematics
 
-* [수학 학습](./Math/README.md)
-  * [기초 수학](./Math/basics/README.md)
-  * [고급 수학](./Math/advanced/README.md)
+* [Mathematics Study](./Math/README.md)
+  * [Basic Mathematics](./Math/basics/README.md)
+  * [Advanced Mathematics](./Math/advanced/README.md)
 
 ## English
 
-* [영어 학습](./English/README.md)
-  * [기초 영어](./English/basics/README.md)
-  * [실용 영어](./English/practical/README.md)
+* [English Study](./English/README.md)
+  * [Basic English](./English/basics/README.md)
+  * [Practical English](./English/practical/README.md)

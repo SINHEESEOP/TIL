@@ -28,16 +28,16 @@ We constantly learn new things. This is a repo to share those learnings.
   - [Separate Compilation](./C++/101/cpp_separate_compilation.md)
 
 ### Mathematics
-- [수학 학습](./Math/README.md)
-  - [기초 수학](./Math/basics/README.md)
-  - [고급 수학](./Math/advanced/README.md)
+- [Mathematics Study](./Math/README.md)
+  - [Basic Mathematics](./Math/basics/README.md)
+  - [Advanced Mathematics](./Math/advanced/README.md)
 
 ### English
-- [영어 학습](./English/README.md)
-  - [기초 영어](./English/basics/README.md)
-  - [실용 영어](./English/practical/README.md)
+- [English Study](./English/README.md)
+  - [Basic English](./English/basics/README.md)
+  - [Practical English](./English/practical/README.md)
 
-## 🔍 More Information
-- 이 저장소는 개인적인 학습 내용을 정리하고 공유하기 위한 목적으로 만들어졌습니다.
-- 모든 내용은 GitBook을 통해 더 보기 좋게 볼 수 있습니다.
-- 내용에 오류가 있거나 추가할 내용이 있다면 PR이나 이슈를 통해 알려주시면 감사하겠습니다.
+## �� More Information
+- This repository is created to organize and share personal learning experiences.
+- All content can be viewed in a more readable format through GitBook.
+- If you find any errors or have content to add, please let us know through PR or Issues.

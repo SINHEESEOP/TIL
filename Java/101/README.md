@@ -1,21 +1,29 @@
 # ☕ Java 101
 
-Java 프로그래밍 언어의 기초를 다루는 섹션입니다.
+A section covering the fundamentals of the Java programming language.
 
 ## 📚 Contents
 
-### [Java Basics](Java_basics.md)
+### [Java Basics](java_basics.md)
+Basic concepts and syntax of Java programming.
 
-### [Java OOP](OOP.md)
+### [Object Oriented Programming](object_oriented_programming.md)
+Core concepts of OOP in Java.
 
-### [클래스와 데이터](클래스와데이터.md)
+### [Class and Data](class_and_data.md)
+Understanding classes and data structures in Java.
 
-### [생성자](생성자.md)
+### [Constructors](constructors.md)
+Object creation and constructor patterns.
 
-### [접근제어자](접근제어자.md)
+### [Access Modifiers](access_modifiers.md)
+Understanding visibility and access control.
 
-### [변수와 메소드 생성 시기](변수와메소드생성시기.md)
+### [Variable and Method Lifecycle](variable_and_method_lifecycle.md)
+Understanding when variables and methods are created and destroyed.
 
-### [JVM & JavaMemoryArea & static](JVM&JavaMemoryArea&static.md)
+### [JVM Memory and Static](jvm_memory_and_static.md)
+Deep dive into JVM memory management and static members.
 
-### [OS 마다 기계 해석이 다른 이유](OS마다기계해석이다른이유.md)
+### [Different Machine Interpretation by OS](why_different_machine_interpretation_by_os.md)
+Understanding how different operating systems interpret Java bytecode.

@@ -1,20 +1,27 @@
 # 🔧 C++ 101
 
-C++ 프로그래밍 언어의 기초와 핵심 개념을 다루는 섹션입니다.
+A section covering the fundamentals and core concepts of the C++ programming language.
 
 ## 📚 Contents
 
-### [C++ 개요와 역사](C++개요와_역사.md)
+### [Overview and History](cpp_overview_and_history.md)
+The evolution and key features of C++.
 
-### [C++ 개발환경구축](C++개발_환경_구축.md)
-- [Window](Window.md)
+### [Development Environment](cpp_development_environment.md)
+Setting up your C++ development environment.
+- [Windows Setup](windows_setup.md)
 
-### [C++ 기본 문법](C++기본문법.md)
+### [Basic Syntax](cpp_basic_syntax.md)
+Core syntax and programming concepts in C++.
 
-### [C++ : 와 :: 의 차이](C++_콜론과_콜론x2의_차이.md)
+### [Colon vs Double Colon](cpp_colon_vs_double_colon.md)
+Understanding scope resolution and namespace operators.
 
-### [C++ define 과 Java final static 의 차이](C++define_과_final_static의_차이.md)
+### [Define vs Final Static](cpp_define_vs_final_static.md)
+Comparing preprocessor directives with constant declarations.
 
-### [C++ 메모리 관리](C++메모리관리.md)
+### [Memory Management](cpp_memory_management.md)
+Understanding manual memory management in C++.
 
-### [C++ 분할 컴파일(OOP와 비슷하지만 다름)](C++분할컴파일(OOP와_비슷하지만_다름).md)
+### [Separate Compilation](cpp_separate_compilation.md)
+Understanding modular programming and compilation process.
