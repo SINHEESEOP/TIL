@@ -15,3 +15,7 @@ Java 프로그래밍 언어의 기초를 다루는 섹션입니다.
 ### [접근제어자](접근제어자.md)
 
 ### [변수와 메소드 생성 시기](변수와메소드생성시기.md)
+
+### [JVM & JavaMemoryArea & static](JVM&JavaMemoryArea&static.md)
+
+### [OS 마다 기계 해석이 다른 이유](OS마다기계해석이다른이유.md)
