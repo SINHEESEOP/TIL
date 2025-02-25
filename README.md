@@ -14,7 +14,8 @@ We constantly learn new things. This is a repo to share those learnings.
   - [Variable and Method Lifecycle](./Java/101/variable_and_method_lifecycle.md)
   - [JVM Memory and Static](./Java/101/jvm_memory_and_static.md)
   - [Different Machine Interpretation by OS](./Java/101/why_different_machine_interpretation_by_os.md)
-  
+  - [Final Modifiers](./Java/101/final_modifiers.md)
+  - [Inheritance and Super](./Java/101/inheritance_and_super.md)
 
 ### C++
 - [C++ 101](./C++/101/README.md)
