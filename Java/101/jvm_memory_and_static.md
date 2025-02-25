@@ -1,12 +1,10 @@
-# 03_JVM & JavaMemoryArea & static
-
 ## 1. JVM
 
 자바 메모리 구조를 이해하기 전에, 먼저 **JVM**(Java Virtual Machine)에 대해 간단히 살펴보겠습니다.
 
 ### 1.1 JVM이란?
-- **Java Virtual Machine**의 약자. 자바 소스 코드를 컴파일해서 만들어진 **바이트코드(.class)**를 OS에 종속되지 않고 실행해주는 **가상 머신**입니다.
-    - 그것이 가능한 이유 [OS 마다 기계 해석이 다른 이유](./why_os_is_different.md) 참고
+- **Java Virtual Machine**의 약자. 자바 소스 코드를 컴파일해서 만들어진 **바이트코드(.class)** 를 OS에 종속되지 않고 실행해주는 **가상 머신**입니다.
+    - 가능한 이유 [OS 마다 기계 해석이 다른 이유](./why_different_machine_interpretation_by_os.md) 참고
 - JVM만 설치되어 있으면, 어느 운영체제에서든 같은 `.class` 파일을 실행할 수 있는 것이 자바의 큰 장점입니다.
 
 ### 1.2 JVM 실행 순서
