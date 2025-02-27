@@ -16,6 +16,9 @@ We constantly learn new things. This is a repo to share those learnings.
   - [Different Machine Interpretation by OS](./Java/101/why_different_machine_interpretation_by_os.md)
   - [Final Modifiers](./Java/101/final_modifiers.md)
   - [Inheritance and Super](./Java/101/inheritance_and_super.md)
+- [Java Q&A](./Java/QnA/README.md)
+  - [JVM Questions](./Java/QnA/concepts/jvm_questions.md)
+  - [Why Child Type Cannot Reference Parent Type](./Java/QnA/concepts/why_child_cannot_reference_parent.md)
 
 ### C++
 - [C++ 101](./C++/101/README.md)
@@ -38,7 +41,7 @@ We constantly learn new things. This is a repo to share those learnings.
   - [Basic English](./English/basics/README.md)
   - [Practical English](./English/practical/README.md)
 
-## �� More Information
+## 🔍 More Information
 - This repository is created to organize and share personal learning experiences.
 - All content can be viewed in a more readable format through GitBook.
 - If you find any errors or have content to add, please let us know through PR or Issues.
