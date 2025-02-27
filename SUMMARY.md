@@ -21,6 +21,7 @@
 
 * [Java Q&A](./Java/QnA/README.md)
   * [Why This Section?](./Java/QnA/README.md#why-this-section)
+  * [Concept Questions](./Java/QnA/README.md#개념-관련-질문)
     * [JVM Questions](./Java/QnA/concepts/jvm_questions.md)
     * [Why Child Type Cannot Reference Parent Type](./Java/QnA/concepts/why_child_cannot_reference_parent.md)
 
