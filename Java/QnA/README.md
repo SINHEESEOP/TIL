@@ -8,8 +8,9 @@ Java 101을 공부하면서 기본 교재나 강의에서 다루지 않는 심�
 ## 🔍 카테고리
 
 ### 개념 관련 질문
-- [Why Child Type Cannot Reference Parent Type](./concepts/why_child_cannot_reference_parent.md)
-- [JVM 관련 질문](./concepts/jvm_questions.md)
+- [Why Child Type Cannot Reference Parent Type](./Java/QnA/concepts/why_child_cannot_reference_parent.md)
+- [JVM 관련 질문](./Java/QnA/concepts/jvm_questions.md)
+
 <!-- - [OOP 관련 질문](./concepts/oop_questions.md) -->
 <!-- - [메모리 관리 질문](./concepts/memory_management.md)
 - [스레드와 동시성 질문](./concepts/threading_concurrency.md) -->
@@ -43,10 +44,6 @@ Java 101을 공부하면서 기본 교재나 강의에서 다루지 않는 심�
 ```java
 // 코드 예제
 ```
-
-## 추가 참고 자료
-- [링크1](URL)
-- [링크2](URL)
 
 
 ## 🔄 기여 방법
