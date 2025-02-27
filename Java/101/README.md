@@ -27,3 +27,10 @@ Deep dive into JVM memory management and static members.
 
 ### [Different Machine Interpretation by OS](why_different_machine_interpretation_by_os.md)
 Understanding how different operating systems interpret Java bytecode.
+
+### [Final Modifiers](final_modifiers.md)
+Understanding how to use final modifiers.
+
+### [Inheritance and Super](inheritance_and_super.md)
+Understanding inheritance and super in Java.
+
