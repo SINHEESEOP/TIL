@@ -144,9 +144,3 @@ public class HelloController {
 - [Spring Boot Docs - Static Content](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-static-content)
 - [스프링 공식 레퍼런스](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
 - [MVC와 템플릿 엔진 예시](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-template-engines)
-
-
-> **Markdown 작성 가이드**  
-> - 상기 예시는 깃북 업로드를 위한 완성형 Markdown 예시입니다.  
-> - 실제 깃북에서 **문서 트리**(Summary)를 구성할 때, 필요하다면 `README.md` 또는 여러 챕터 파일(`chapter1.md`, `chapter2.md` 등)로 분할할 수 있습니다.  
-> - 문서 최상단에 목차를 생성하여, 각 섹션을 내부 링크로 연결 (깃북에서 자동 TOC 기능 활용 가능).  
