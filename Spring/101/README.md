@@ -15,6 +15,12 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - View 환경설정
   - 빌드하고 실행하기
 
+### 2. Spring 기초
+- [Spring Basics](./spring_basics.md)
+  - 정적 컨텐츠
+  - MVC와 템플릿 엔진
+  - API
+
 ## 🛠️ Development Environment
 - JDK 17 이상
 - Spring Boot 3.x

@@ -34,6 +34,7 @@ We constantly learn new things. This is a repo to share those learnings.
 ### Spring
 - [Spring 101](./Spring/101/README.md)
   - [Spring Boot Project Setup](./Spring/101/spring_boot_project_setup.md)
+  - [Spring Basics](./Spring/101/spring_basics.md)
 
 ### Mathematics
 - [Mathematics Study](./Math/README.md)
