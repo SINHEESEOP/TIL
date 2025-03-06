@@ -21,6 +21,11 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - MVC와 템플릿 엔진
   - API
 
+### 3. 스프링 빈과 의존관계
+- [Spring Beans and Dependency Injection](./spring_beans_and_dependency_injection.md)
+  - 컴포넌트 스캔과 자동 의존관계 설정
+  - 자바 코드로 직접 스프링 빈 등록하기
+
 ## 🛠️ Development Environment
 - JDK 17 이상
 - Spring Boot 3.x
