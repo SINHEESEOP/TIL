@@ -26,6 +26,13 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - 컴포넌트 스캔과 자동 의존관계 설정
   - 자바 코드로 직접 스프링 빈 등록하기
 
+### 4. 스프링 데이터 객체 패턴
+- [Data Objects in Spring](./data_objects_in_spring.md)
+  - DTO (Data Transfer Object)
+  - Entity (도메인 객체)
+  - VO (Value Object)
+  - DAO (Data Access Object)
+
 ## 🛠️ Development Environment
 - JDK 17 이상
 - Spring Boot 3.x

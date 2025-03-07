@@ -42,6 +42,7 @@
   * [Spring Boot Project Setup](./Spring/101/spring_boot_project_setup.md)
   * [Spring Basics](./Spring/101/spring_basics.md)
   * [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md)
+  * [Data Objects in Spring](./Spring/101/data_objects_in_spring.md)
 
 ## Mathematics
 
