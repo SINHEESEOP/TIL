@@ -33,6 +33,13 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - VO (Value Object)
   - DAO (Data Access Object)
 
+### 5. 스프링 계층형 아키텍처
+- [Spring Layered Architecture](./spring_layered_architecture.md)
+  - 도메인(Domain)
+  - 리포지토리(Repository)
+  - 테스트(Test)와 "Given-When-Then" 구조
+  - 서비스(Service)와 DI(Dependency Injection)
+
 ## 🛠️ Development Environment
 - JDK 17 이상
 - Spring Boot 3.x

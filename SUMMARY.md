@@ -43,6 +43,7 @@
   * [Spring Basics](./Spring/101/spring_basics.md)
   * [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md)
   * [Data Objects in Spring](./Spring/101/data_objects_in_spring.md)
+  * [Spring Layered Architecture](./Spring/101/spring_layered_architecture.md)
 
 ## Mathematics
 
