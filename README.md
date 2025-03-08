@@ -32,10 +32,12 @@ We constantly learn new things. This is a repo to share those learnings.
   - [Separate Compilation](./C++/101/cpp_separate_compilation.md)
 
 ### Spring
-- [Spring 101](./Spring/101/README.md)
-  - [Spring Boot Project Setup](./Spring/101/spring_boot_project_setup.md)
-  - [Spring Basics](./Spring/101/spring_basics.md)
-  - [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md)
+* [Spring 101](./Spring/101/README.md)
+  * [Spring Boot Project Setup](./Spring/101/spring_boot_project_setup.md)
+  * [Spring Basics](./Spring/101/spring_basics.md)
+  * [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md)
+  * [Data Objects in Spring](./Spring/101/data_objects_in_spring.md)
+  * [Spring Layered Architecture](./Spring/101/spring_layered_architecture.md)
 
 ### Mathematics
 - [Mathematics Study](./Math/README.md)
