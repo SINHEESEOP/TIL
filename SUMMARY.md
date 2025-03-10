@@ -44,6 +44,7 @@
   * [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md)
   * [Data Objects in Spring](./Spring/101/data_objects_in_spring.md)
   * [Spring Layered Architecture](./Spring/101/spring_layered_architecture.md)
+  * [Model vs Entity in Spring](./Spring/101/spring_model_vs_entity.md)
 
 ## Mathematics
 

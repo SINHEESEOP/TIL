@@ -40,6 +40,13 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - 테스트(Test)와 "Given-When-Then" 구조
   - 서비스(Service)와 DI(Dependency Injection)
 
+### 6. 스프링의 Model과 Entity 비교
+- [Model vs Entity in Spring](./spring_model_vs_entity.md)
+  - Model의 개념과 특징
+  - Entity의 개념과 특징
+  - Model과 Entity의 차이점
+  - 실무에서의 활용 방법
+
 ## 🛠️ Development Environment
 - JDK 17 이상
 - Spring Boot 3.x
