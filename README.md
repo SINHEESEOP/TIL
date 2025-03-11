@@ -33,7 +33,7 @@ We constantly learn new things. This is a repo to share those learnings.
 
 ### Web
 - [Web Development](./Web/README.md)
-  - [웹 서버 아키텍처 비교](./Web/basics/web_server_architecture_comparison.md)
+  - [Web Server Architecture Comparison](./Web/basics/web_server_architecture_comparison.md)
 
 ### Spring
 - [Spring 101](./Spring/101/README.md)

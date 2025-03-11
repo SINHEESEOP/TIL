@@ -39,8 +39,8 @@
 ## Web
 
 * [Web Development](./Web/README.md)
-  * [기초 개념](./Web/basics)
-    * [웹 서버 아키텍처 비교](./Web/basics/web_server_architecture_comparison.md)
+  * [Web 101](./Web/basics)
+    * [Web Server Architecture Comparison](./Web/basics/web_server_architecture_comparison.md)
 
 ## Spring
 
