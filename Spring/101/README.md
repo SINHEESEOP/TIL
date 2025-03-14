@@ -47,6 +47,13 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - Model과 Entity의 차이점
   - 실무에서의 활용 방법
 
+### 7. 관점 지향 프로그래밍 (AOP)
+- [AOP (Aspect Oriented Programming)](./spring_aop.md)
+  - AOP의 개념과 필요성
+  - AOP 적용 방법
+  - 공통 관심사 분리의 이점
+  - 실제 사용 예시
+
 ## 🛠️ Development Environment
 - JDK 17 이상
 - Spring Boot 3.x
