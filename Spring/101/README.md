@@ -55,7 +55,7 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - 실제 사용 예시
 
 ### 8. 스프링 프레임워크의 역사적 발전
-- [Spring 프레임워크의 역사적 발전](./spring_evolution_history.md)
+- [Spring Spring Evolution History](./spring_evolution_history.md)
   - EJB에서 Spring으로의 변화
   - Hibernate와 JPA의 등장
   - Spring Boot의 혁신

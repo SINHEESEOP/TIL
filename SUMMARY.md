@@ -52,9 +52,9 @@
   * [Spring Layered Architecture](./Spring/101/spring_layered_architecture.md)
   * [Model vs Entity in Spring](./Spring/101/spring_model_vs_entity.md)
   * [AOP (Aspect Oriented Programming)](./Spring/101/spring_aop.md)
-  * [Spring 프레임워크의 역사적 발전](./Spring/101/spring_evolution_history.md)
+  * [Spring Evolution History](./Spring/101/spring_evolution_history.md)
 
-## Mathematics
+## Mathematics  
 
 * [Mathematics Study](./Math/README.md)
   * [Basic Mathematics](./Math/basics/README.md)
