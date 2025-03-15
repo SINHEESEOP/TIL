@@ -12,6 +12,12 @@
   - 서버와 애플리케이션 로직의 분리
   - 각 언어별 인터페이스와 구현체
 
+- [Servlet Concepts and WAS Architecture](./servlet_was_architecture.md)
+  - 서블릿과 서블릿 컨테이너의 개념
+  - 톰캣과 WAS의 관계
+  - 다른 언어와의 유사 개념 비교
+  - 웹 요청 처리 흐름 이해
+
 ## 🔍 Learning Goals
 1. 웹 서버와 애플리케이션 서버의 차이점 이해
 2. 다양한 프로그래밍 언어에서의 웹 서버 구현 방식 비교
