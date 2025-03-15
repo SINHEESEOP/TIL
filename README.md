@@ -34,8 +34,7 @@ We constantly learn new things. This is a repo to share those learnings.
 ### Web
 - [Web Development](./Web/README.md)
   - [Web 101](./Web/basics/README.md)
-    - [Web Server Architecture Comparison](./Web/basics/web_server_architecture_comparison.md)
-    - [Servlet Concepts and WAS Architecture](./Web/basics/servlet_was_architecture.md)
+    - [Servlet and WAS Architecture](./Web/basics/servlet_was_architecture.md)
 
 ### Spring
 - [Spring 101](./Spring/101/README.md)

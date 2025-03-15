@@ -17,6 +17,7 @@
   - 톰캣과 WAS의 관계
   - 다른 언어와의 유사 개념 비교
   - 웹 요청 처리 흐름 이해
+  - Spring MVC와 Servlet의 관계
 
 ## 🔍 Learning Goals
 1. 웹 서버와 애플리케이션 서버의 차이점 이해
@@ -29,4 +30,5 @@
 - Python WSGI/ASGI
 - Node.js HTTP 모듈
 - 웹 서버 (Apache, Nginx, Tomcat 등)
-- 애플리케이션 서버 (WildFly, WebLogic 등) 
+- 애플리케이션 서버 (WildFly, WebLogic 등)
+- Spring MVC 
