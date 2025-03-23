@@ -54,12 +54,6 @@
   * [AOP (Aspect Oriented Programming)](./Spring/101/spring_aop.md)
   * [Spring Evolution History](./Spring/101/spring_evolution_history.md)
 
-## Mathematics  
-
-* [Mathematics Study](./Math/README.md)
-  * [Basic Mathematics](./Math/basics/README.md)
-  * [Advanced Mathematics](./Math/advanced/README.md)
-
 ## English
 
 * [English Study](./English/README.md)
