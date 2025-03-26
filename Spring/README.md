@@ -10,6 +10,10 @@
   - 프로젝트 환경 설정
   - 핵심 개념과 실전 예제
 
+### Spring Core
+- [Spring Container](./Core/Container/README.md)
+  - [Singleton Container](./Core/Container/Singleton_Container.md) - 싱글톤 패턴과 스프링 컨테이너
+
 ## 🔍 Resources
 - [Spring 공식 문서](https://spring.io/docs)
 - [Spring Boot 가이드](https://spring.io/guides)
