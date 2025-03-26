@@ -8,6 +8,10 @@
 - [Spring Container](./Container/README.md)
   - [Singleton Container](./Container/Singleton_Container.md) - 스프링의 싱글톤 컨테이너와 관리 방식
 
+### 컴포넌트
+- [Spring Components](./Component/README.md)
+  - [Component Scan](./Component/Component_Scan.md) - 스프링의 컴포넌트 스캔 메커니즘
+
 ## 🔑 주요 개념
 
 - 의존성 주입 (Dependency Injection)

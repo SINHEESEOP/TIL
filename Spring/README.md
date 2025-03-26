@@ -13,6 +13,8 @@
 ### Spring Core
 - [Spring Container](./Core/Container/README.md)
   - [Singleton Container](./Core/Container/Singleton_Container.md) - 싱글톤 패턴과 스프링 컨테이너
+- [Spring Components](./Core/Component/README.md)
+  - [Component Scan](./Core/Component/Component_Scan.md) - 스프링의 컴포넌트 스캔
 
 ## 🔍 Resources
 - [Spring 공식 문서](https://spring.io/docs)

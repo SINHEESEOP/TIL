@@ -57,6 +57,8 @@
 * [Spring Core](./Spring/Core/README.md)
   * [Spring Container](./Spring/Core/Container/README.md)
     * [Singleton Container](./Spring/Core/Container/Singleton_Container.md)
+  * [Spring Components](./Spring/Core/Component/README.md)
+    * [Component Scan](./Spring/Core/Component/Component_Scan.md)
 
 ## English
 
