@@ -1,7 +1,5 @@
 # Component Scan
 
-## 컴포넌트 스캔이란?
-
 컴포넌트 스캔은 스프링이 빈을 자동으로 등록하기 위한 메커니즘입니다. 개발자가 직접 `@Bean`으로 등록하지 않아도 스프링이 클래스패스를 스캔하여 자동으로 스프링 빈을 등록합니다.
 
 ## 📋 기본 개념
@@ -59,6 +57,118 @@ public class MemberServiceImpl implements MemberService {
 | `@Service` | 비즈니스 로직 처리 | 특별한 처리 없음 (비즈니스 계층임을 표시) |
 | `@Repository` | 데이터 접근 계층 | 데이터 계층 예외를 스프링 예외로 변환 |
 | `@Configuration` | 설정 정보 | 스프링 설정 정보로 인식, 싱글톤 유지 |
+
+#### 💾 @Repository의 예외 변환 기능 상세 설명
+
+`@Repository` 애노테이션의 가장 중요한 기능은 **데이터 접근 예외를 스프링의 추상화된 예외로 변환**해주는 것입니다.
+
+##### 왜 예외 변환이 필요한가? 🤔
+
+데이터베이스마다 발생하는 예외와 에러 코드는 모두 다릅니다:
+
+| 데이터베이스 | 중복 키 에러 | 구문 오류 |
+|---|---|---|
+| Oracle | ORA-00001 | ORA-00942 |
+| MySQL | Error 1062 | Error 1064 |
+| PostgreSQL | Error 23505 | Error 42601 |
+
+만약 특정 DB에 종속적인 예외 처리를 직접 코드에 작성한다면:
+
+```java
+try {
+    // 회원 저장 로직
+} catch (OracleException e) {  // Oracle 전용 예외
+    if (e.getErrorCode() == 1) {  // Oracle 고유 에러 코드
+        throw new DuplicateMemberException("이미 존재하는 회원입니다");
+    }
+}
+```
+
+이렇게 작성하면 DB를 변경할 때마다 모든 예외 처리 코드를 수정해야 합니다! 😱
+
+##### 스프링의 해결책 💡
+
+`@Repository` 애노테이션을 사용하면 스프링이 자동으로 다음과 같은 처리를 해줍니다:
+
+1. 각 DB 전용 예외를 감지
+2. 스프링의 통합된 예외 계층구조(`DataAccessException`)로 변환
+3. 애플리케이션 계층에 일관된 예외 제공
+
+**예시: 각 DB별 예외가 어떻게 변환되는지**
+
+```
+Oracle의 ORA-00001 → DataIntegrityViolationException
+MySQL의 Error 1062 → DataIntegrityViolationException
+PostgreSQL의 Error 23505 → DataIntegrityViolationException
+```
+
+##### 실제 코드 예시 📝
+
+**변환 전 (DB 종속적):**
+```java
+@Component  // @Repository 없이 사용
+public class MemberRepositoryOracle {
+    public void save(Member member) {
+        try {
+            // Oracle DB 저장 로직
+        } catch (OracleException e) {
+            if (e.getErrorCode() == 1) {  // Oracle 고유 에러코드
+                throw new DuplicateKeyException("중복 회원");
+            } else if (e.getErrorCode() == 942) {  // 테이블 없음
+                throw new TableNotFoundException("테이블 없음");
+            }
+            throw new RuntimeException(e);
+        }
+    }
+}
+```
+
+**변환 후 (DB 독립적):**
+```java
+@Repository  // 예외 변환 적용
+public class MemberRepositoryImpl implements MemberRepository {
+    public void save(Member member) {
+        try {
+            // DB 저장 로직 (어떤 DB든 상관없음)
+            // Oracle, MySQL, PostgreSQL 등 모두 동일한 코드로 동작
+        } catch (Exception e) {
+            // 스프링이 자동으로 적절한 예외로 변환
+            throw e;  // 개발자는 예외 변환을 신경 쓸 필요 없음
+        }
+    }
+}
+```
+
+**서비스 계층 (변경 필요 없음):**
+```java
+@Service
+public class MemberService {
+    private final MemberRepository memberRepository;
+    
+    public void join(Member member) {
+        try {
+            memberRepository.save(member);
+        } catch (DataIntegrityViolationException e) {
+            // Oracle, MySQL 등 어떤 DB를 사용해도 동일하게 처리 가능
+            throw new BusinessException("이미 존재하는 회원입니다");
+        }
+    }
+}
+```
+
+##### 실무적 이점 🚀
+
+1. **DB 변경에 유연하게 대응**
+   - Oracle에서 MySQL로 DB가 바뀌어도 예외 처리 코드 변경 불필요
+
+2. **비즈니스 로직과 데이터 접근 기술 분리**
+   - 서비스 계층은 DB 연결 방식(JDBC, JPA 등)에 독립적으로 작성 가능
+
+3. **테스트 용이성**
+   - 일관된 예외 계층을 활용해 테스트 코드 작성 가능
+
+4. **유지보수성 향상**
+   - 모든 DB 예외가 동일한 계층구조로 처리되어 코드 일관성 유지
 
 각 애노테이션은 내부적으로 `@Component`를 포함하고 있음:
 
