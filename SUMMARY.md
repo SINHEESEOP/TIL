@@ -19,6 +19,9 @@
   * [Final Modifiers](./Java/101/final_modifiers.md)
   * [Inheritance and Super](./Java/101/inheritance_and_super.md)
 
+* [Java Advanced](./Java/Java_Advanced/README.md)
+  * [JavaBean Property Convention](./Java/Java_Advanced/JavaBeanPropertyConvention.md)
+
 * [Java Q&A](./Java/QnA/README.md)
   * [Concepts](./Java/QnA/concepts)
     * [JVM Questions](./Java/QnA/concepts/jvm_questions.md)

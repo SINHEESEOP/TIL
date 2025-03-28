@@ -16,6 +16,8 @@ We constantly learn new things. This is a repo to share those learnings.
   - [Different Machine Interpretation by OS](./Java/101/why_different_machine_interpretation_by_os.md)
   - [Final Modifiers](./Java/101/final_modifiers.md)
   - [Inheritance and Super](./Java/101/inheritance_and_super.md)
+- [Java Advanced](./Java/Java_Advanced/README.md)
+  - [Java Bean Property Convention](./Java/Java_Advanced/JavaBeanPropertyConvention.md)
 - [Java Q&A](./Java/QnA/README.md)
   - [JVM Questions](./Java/QnA/concepts/jvm_questions.md)
   - [Why Child Type Cannot Reference Parent Type](./Java/QnA/concepts/why_child_cannot_reference_parent.md)
