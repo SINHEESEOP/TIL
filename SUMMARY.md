@@ -62,6 +62,8 @@
     * [Singleton Container](./Spring/Core/Container/Singleton_Container.md)
   * [Spring Components](./Spring/Core/Component/README.md)
     * [Component Scan](./Spring/Core/Component/Component_Scan.md)
+  * [Dependency Injection](./Spring/Core/Injection/README.md)
+    * [Field Injection and Test Issues](./Spring/Core/Injection/FieldInjectionAndTestIssues.md)
 
 ## English
 

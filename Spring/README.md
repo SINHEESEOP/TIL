@@ -15,6 +15,8 @@
   - [Singleton Container](./Core/Container/Singleton_Container.md) - 싱글톤 패턴과 스프링 컨테이너
 - [Spring Components](./Core/Component/README.md)
   - [Component Scan](./Core/Component/Component_Scan.md) - 스프링의 컴포넌트 스캔
+- [Dependency Injection](./Core/Injection/README.md)
+  - [Field Injection and Test Issues](./Core/Injection/FieldInjectionAndTestIssues.md) - @Autowired 필드 주입의 문제점과 테스트에서의 활용 방안
 
 ## 🔍 Resources
 - [Spring 공식 문서](https://spring.io/docs)
