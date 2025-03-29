@@ -66,12 +66,6 @@
   - [Basic English](./English/basics/README.md) - 기초 영어
   - [Practical English](./English/practical/README.md) - 실용 영어
 
-## 🔄 최근 업데이트
-
-- [Data Object Types](./Spring/101/DataObjectTypes.md) - DTO, Entity, VO, DAO 개념 완벽 정리
-- [Lombok 완벽 가이드](./Spring/Tools/Lombok/LombokGuide.md) - Lombok의 개념, 기능 및 활용법
-- [자바빈 프로퍼티 규약](./Java/Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈의 프로퍼티 규약과 활용 방법
-
 ## 🔍 기여 방법
 
 이 저장소에 새로운 내용을 추가하거나 오류를 수정하고 싶다면:

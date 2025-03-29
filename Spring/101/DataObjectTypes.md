@@ -1,147 +1,103 @@
-# 데이터 객체 타입: DTO, Entity, VO, DAO 완벽 정리 🧩
+# TIL: Spring 데이터 객체 타입의 진화와 구분 🚀
 
-DTO, 도메인 객체, VO, DAO는 모두 소프트웨어 설계에서 데이터를 표현하고 처리하기 위해 사용되는 개념들입니다. 이들의 역할과 차이점을 쉽게 설명해보겠습니다.
+> JDBC 시대부터 DAO → MyBatis → JPA/Repository로 이어지는 흐름과 데이터 객체 타입들을 정리했습니다.
 
-## 1. DTO (Data Transfer Object) 📦
+## 1. JDBC 시절 🕰️
+- **배경** 📝  
+  - 과거에는 SQL을 직접 작성하여 `Connection`, `Statement`, `ResultSet`을 사용해 DB 질의를 수행
+  - 비즈니스 로직 코드 곳곳에 JDBC 관련 로직이 중복되고, 유지보수가 어려웠음
+- **핵심** ✅  
+  - **직접 SQL + 반복되는 JDBC 코드**로 인한 복잡성과 중복 발생
 
-- **목적:** 데이터를 전송하기 위한 객체
-- **주요 특징:**
-    - 클라이언트와 서버 간, 또는 계층 간 데이터를 주고받을 때 사용
-    - 비즈니스 로직이 없는 순수한 데이터 구조
-    - 보통 getter와 setter만 포함하며, 데이터를 담고 전송하는 데 초점
-- **예시:**
-    
-    ```java
-    public class UserDTO {
-        private String name;
-        private int age;
-    
-        public UserDTO(String name, int age) {
-            this.name = name;
-            this.age = age;
-        }
-    
-        // Getter, Setter
-    }
-    ```
-    
-- **사용 사례:**
-    - 클라이언트에서 서버로 데이터를 보낼 때
-    - 컨트롤러와 서비스 계층 간 데이터를 교환할 때
+## 2. DAO(Data Access Object) 패턴 📊
+- **등장 배경** 💡  
+  - DB 접근 로직을 한곳(DAO 클래스)으로 모아 **관심사 분리(Separation of Concerns)**를 실현
+  - 서비스나 컨트롤러는 **비즈니스 로직**에만 집중, DB 접근은 DAO가 전담
+- **특징** 🔍  
+  - **SQL 중심** (직접 쿼리 작성)
+  - DB와 밀접하게 결합됨
+- **장점** 👍  
+  - DB 관련 코드가 한곳에 모여 유지보수가 용이해짐
 
-## 2. Entity (도메인 객체) 🏛️
+## 3. MyBatis(iBatis) 등장 🌉
+- **배경** 📝  
+  - DAO에 쿼리가 많아지면, 계속해서 매핑 코드도 많아져 번거로움
+- **개선점** 🔄  
+  - Mapper.xml 또는 인터페이스에 **SQL만** 정의하면,  
+    MyBatis가 내부적으로 JDBC 처리와 객체 매핑을 **자동**으로 진행
+- **효과** 📈  
+  - DAO 코드를 **더 간소화**하고, SQL 작성에만 집중할 수 있도록 개선
 
-- **목적:** 비즈니스 로직과 데이터 표현의 핵심 객체
-- **주요 특징:**
-    - 도메인(비즈니스 요구사항)을 모델링한 객체
-    - 비즈니스 로직을 포함하고, 애플리케이션에서 데이터를 처리하는 데 중심 역할
-    - 엔티티(Entity)와 혼용해서 사용되는 경우가 많음
-- **예시:**
-    
-    ```java
-    public class User {
-        private String name;
-        private int age;
-    
-        public User(String name, int age) {
-            this.name = name;
-            this.age = age;
-        }
-    
-        // 비즈니스 로직 예시
-        public boolean isAdult() {
-            return this.age >= 18;
-        }
-    }
-    ```
-    
-- **사용 사례:**
-    - 도메인(비즈니스) 모델을 표현
-    - 서비스 계층에서 비즈니스 로직을 처리할 때 사용
+## 4. ORM & JPA/Hibernate 🏗️
+- **등장 배경** 💡  
+  - "객체 지향 프로그래밍"과 "관계형 DB" 사이 괴리를 줄이기 위함(ORM)  
+  - SQL 없이도 **엔티티(Entity)와 매핑**만으로 자동 SQL 생성
+- **핵심 아이디어** 💭  
+  - 도메인(비즈니스) 모델에 집중하고, DB 작업은 프레임워크(JPA)가 자동 처리
+- **장점** 👍  
+  - 객체 지향적 코드 작성 → 생산성과 가독성 상승
+  - **Repository** 개념: "어떤 엔티티를 어떻게 저장/조회할지" 추상화
+  - DAO와 비슷한 역할을 하지만 **SQL 대신 엔티티/도메인** 중심으로 동작
 
-## 3. VO (Value Object) 💎
+## 5. 데이터 객체 타입 개념 정리 📋
 
-- **목적:** 변하지 않는 값(불변 객체)을 표현
-- **주요 특징:**
-    - 값 자체를 비교하는 객체(내용으로 동등성 판단)
-    - **불변성**(Immutable)을 가지며, 생성 후 상태가 변하지 않음
-    - 데이터의 일부 속성을 캡슐화하여 의미를 부여
-- **예시:**
-    
-    ```java
-    public class Money {
-        private final int amount;
-        private final String currency;
-    
-        public Money(int amount, String currency) {
-            this.amount = amount;
-            this.currency = currency;
-        }
-    
-        // 값 비교를 위해 equals와 hashCode 구현
-        @Override
-        public boolean equals(Object obj) {
-            if (this == obj) return true;
-            if (!(obj instanceof Money)) return false;
-            Money other = (Money) obj;
-            return this.amount == other.amount && this.currency.equals(other.currency);
-        }
-    
-        @Override
-        public int hashCode() {
-            return Objects.hash(amount, currency);
-        }
-    }
-    ```
-    
-- **사용 사례:**
-    - 금액, 날짜, 좌표와 같은 **값 그 자체**를 나타낼 때
+### 5.1 Entity 🏛️
+- DDD에서 식별자를 갖는 도메인 객체
+- JPA에서는 `@Entity`로 DB와 매핑되는 객체
+- 특징: 식별자 보유, 비즈니스 로직 포함 가능, 데이터베이스 테이블과 매핑됨
 
-## 4. DAO (Data Access Object) 🗄️
+### 5.2 VO(Value Object) 💎
+- 식별자 없이 **값**만 표현, 주로 **불변**으로 설계
+- 예: `Address`, `Money`, `PhoneNumber` 등
+- 특징: 동등성 비교(`equals()`, `hashCode()`), 불변성
 
-- **목적:** 데이터베이스와의 접근을 담당하는 객체
-- **주요 특징:**
-    - 데이터베이스와 애플리케이션 간의 연결 고리 역할
-    - 데이터의 CRUD(Create, Read, Update, Delete) 작업을 수행
-    - SQL 쿼리나 ORM(EntityManager, Repository 등)을 통해 데이터를 처리
-- **예시:**
-    
-    ```java
-    public class UserDAO {
-        public User findById(int id) {
-            // 데이터베이스에서 사용자 검색
-            return new User("John Doe", 25);
-        }
-    
-        public void save(User user) {
-            // 데이터베이스에 사용자 저장
-        }
-    }
-    ```
-    
-- **사용 사례:**
-    - 데이터베이스에서 데이터를 읽거나 쓰는 작업을 담당
-    - 서비스 계층에서 호출하여 데이터베이스 작업 수행
+### 5.3 Repository 📁
+- **엔티티를 저장/조회**하는 추상화 계층
+- JPA에서 `JpaRepository`, "DAO" 역할 + "도메인 관점" 보유
+- 특징: 엔티티 중심, 메서드명으로 쿼리 생성 가능
 
-## 차이점 정리 📊
+### 5.4 DTO(Data Transfer Object) 🚚
+- **계층 간** 데이터 전달용 객체  
+- 보안/불필요한 정보 보호를 위해 도메인 객체(Entity) 대신 사용
+- 특징: 비즈니스 로직 없음, 주로 getter/setter 패턴 사용
 
-| **구분** | **DTO** | **Entity** | **VO** | **DAO** |
-| --- | --- | --- | --- | --- |
-| **목적** | 데이터 전송 | 비즈니스 로직 표현 | 변하지 않는 값 표현 | 데이터베이스 작업 |
-| **포함 기능** | Getter/Setter | 비즈니스 로직 포함 | 불변성 유지, 값 동등성 비교 | CRUD 작업(SQL 처리 등) |
-| **가변성** | 가변 | 가변 | 불변 | 가변 |
-| **사용 위치** | 계층 간 데이터 교환 | 서비스 계층, 도메인 계층 | 값 자체 표현 | 데이터 계층 |
-| **예시 사용 대상** | 클라이언트와 서버 간 통신 | 사용자, 주문 등 도메인 객체 | 금액, 좌표 등 | DB 접근을 위한 객체 |
+### 5.5 Model 📊
+- 고전 MVC에서 뷰에 넘길 "데이터" 객체를 포괄적으로 지칭  
+- 최근에는 **Entity, DTO, VO**로 세분화
+- 특징: 일반적인 용어로 사용됨, 구체적 맥락에 따라 의미가 다를 수 있음
 
-## 요약 및 비유 🎯
+## 6. 개념 비교 테이블 📊
 
-1. **DTO**: 데이터를 계층 간 이동시키기 위한 단순한 데이터 객체
-2. **Entity**: 비즈니스 로직을 포함한 애플리케이션의 핵심 모델
-3. **VO**: 불변 객체로, 값 그 자체를 표현
-4. **DAO**: 데이터베이스와의 통신을 담당하는 객체
+| **개념**  | **주요 역할** | **특징** | **등장 배경/이유** |
+|-----------|--------------|---------|-------------------|
+| **Model** | 초기 MVC에서 뷰에 넘기는 데이터 또는 단순 POJO | 광범위한 개념, 세분화됨 | MVC 패턴 초기에 "Model" 용어로 통칭 |
+| **Entity** | DB 매핑 + 도메인 로직을 가진 객체 | 식별자로 구분, 비즈니스 로직 포함, DB 테이블과 매핑 | ORM 시대 & DDD로 강조됨 |
+| **DAO** | "SQL 중심" DB 접근 전담 계층 | SQL 직접 작성, ResultSet → 객체 매핑 | JDBC 중복 코드 해결, DB 로직 분리 |
+| **MyBatis** | DAO 자동화(Mapper 기반) | XML/인터페이스에 SQL만 정의 → 자동 매핑 | DAO의 반복 작업 간소화 |
+| **Repository** | 엔티티 저장/조회의 추상화 계층 | 도메인 객체 관점, 엔티티/메서드 중심 | JPA(ORM)와 DDD 시대의 도메인 중심 설계 |
+| **DTO** | 계층 간/외부로 데이터 전송용 객체 | 비즈니스 로직 없음, getter/setter 패턴 | 보안 및 데이터 전송 효율성 |
+| **VO** | 값을 표현하는 불변 객체 | 식별자 없음, 불변성, 동등성 비교 | 의미 있는 값 표현, 엔티티와 구분 |
 
-쉽게 비유하자면:
-- **DTO는 데이터를 전달하는 택배 상자** 📦
-- **Entity는 애플리케이션의 심장** ❤️
-- **VO는 변하지 않는 값의 표현** 💎
-- **DAO는 DB 작업을 담당하는 직책** 🔑 
+## 7. 최종 정리 🎯
+
+1. **JDBC → DAO → MyBatis → JPA/Repository**로 **DB 접근** 패턴이 발전 📈  
+   - **초기**: 직접 SQL + 반복된 코드  
+   - **DAO**: 분리/모듈화  
+   - **MyBatis**: DAO 자동화  
+   - **JPA/Repository**: 객체지향 + SQL 추상화, 도메인 중심
+
+2. **Entity, VO, DTO** 등 다양한 객체 구분은 **DDD(도메인 주도 설계)**의 영향 🧩  
+   - **Entity**: 식별자 + 비즈니스 로직  
+   - **VO**: 불변, 값 표현  
+   - **DTO**: 데이터 전송 전용
+
+3. **DAO와 Repository**는 DB 접근이라는 공통점, 접근 방식의 차이 ⚖️  
+   - **DAO**: SQL 중심, JDBC/MyBatis 접근  
+   - **Repository**: 객체 중심, JPA/도메인 접근
+
+## 학습 포인트 💡
+
+- **SQL 의존도 감소**: 직접 SQL 작성에서 객체 매핑, 자동 SQL 생성으로 발전
+- **객체 지향 중심**: 데이터베이스 중심에서 객체/도메인 중심으로 전환
+- **관심사 분리**: 데이터 접근과 비즈니스 로직의 명확한 분리
+- **개발 생산성**: 반복 작업 감소와 추상화로 인한 개발 속도 향상
