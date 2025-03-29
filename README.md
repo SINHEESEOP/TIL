@@ -1,67 +1,38 @@
 # 👩🏻‍💻 Today I Learned
 
-We constantly learn new things. This is a repo to share those learnings.
+개발 공부를 하면서 배운 내용을 정리하는 저장소입니다. 모든 내용은 GitBook을 통해 더 편리하게 볼 수 있습니다.
 
-## 📚 Categories
+## 📚 주요 카테고리
 
 ### Java
-- [Java 101](./Java/101/README.md)
-  - [Java Basics](./Java/101/java_basics.md)
-  - [Object Oriented Programming](./Java/101/object_oriented_programming.md)
-  - [Class and Data](./Java/101/class_and_data.md)
-  - [Constructors](./Java/101/constructors.md)
-  - [Access Modifiers](./Java/101/access_modifiers.md)
-  - [Variable and Method Lifecycle](./Java/101/variable_and_method_lifecycle.md)
-  - [JVM Memory and Static](./Java/101/jvm_memory_and_static.md)
-  - [Different Machine Interpretation by OS](./Java/101/why_different_machine_interpretation_by_os.md)
-  - [Final Modifiers](./Java/101/final_modifiers.md)
-  - [Inheritance and Super](./Java/101/inheritance_and_super.md)
-- [Java Advanced](./Java/Java_Advanced/README.md)
-  - [JavaBean Property Convention](./Java/Java_Advanced/JavaBeanPropertyConvention.md)
-- [Java Q&A](./Java/QnA/README.md)
-  - [JVM Questions](./Java/QnA/concepts/jvm_questions.md)
-  - [Why Child Type Cannot Reference Parent Type](./Java/QnA/concepts/why_child_cannot_reference_parent.md)
-
-### C++
-- [C++ 101](./C++/101/README.md)
-  - [Overview and History](./C++/101/cpp_overview_and_history.md)
-  - [Development Environment](./C++/101/cpp_development_environment.md)
-    - [Windows Setup](./C++/101/windows_setup.md)
-  - [Basic Syntax](./C++/101/cpp_basic_syntax.md)
-  - [Colon vs Double Colon](./C++/101/cpp_colon_vs_double_colon.md)
-  - [Define vs Final Static](./C++/101/cpp_define_vs_final_static.md)
-  - [Memory Management](./C++/101/cpp_memory_management.md)
-  - [Separate Compilation](./C++/101/cpp_separate_compilation.md)
-
-### Web
-- [Web Development](./Web/README.md)
-  - [Web 101](./Web/basics/README.md)
-    - [Servlet and WAS Architecture](./Web/basics/servlet_was_architecture.md)
+- [Java 기초](./Java/101/README.md) - 자바 언어의 기본 개념과 문법
+- [Java 심화](./Java/Java_Advanced/README.md) - 자바 고급 기능과 설계 패턴
+- [Java Q&A](./Java/QnA/README.md) - 자바 관련 질문과 답변
 
 ### Spring
-- [Spring 101](./Spring/101/README.md)
-  - [Spring Boot Project Setup](./Spring/101/spring_boot_project_setup.md)
-  - [Spring Basics](./Spring/101/spring_basics.md)
-  - [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md)
-  - [Data Objects in Spring](./Spring/101/data_objects_in_spring.md)
-  - [Spring Layered Architecture](./Spring/101/spring_layered_architecture.md)
-  - [Model vs Entity in Spring](./Spring/101/spring_model_vs_entity.md)
-  - [AOP (Aspect Oriented Programming)](./Spring/101/spring_aop.md)
-  - [Spring Evolution History](./Spring/101/spring_evolution_history.md)
-- [Spring Core](./Spring/Core/README.md)
-  - [Spring Container](./Spring/Core/Container/README.md)
-    - [Singleton Container](./Spring/Core/Container/Singleton_Container.md)
-  - [Spring Components](./Spring/Core/Component/README.md)
-    - [Component Scan](./Spring/Core/Component/Component_Scan.md)
-  - [Dependency Injection](./Spring/Core/Injection/README.md)
-    - [Field Injection and Test Issues](./Spring/Core/Injection/FieldInjectionAndTestIssues.md)
+- [Spring 기초](./Spring/101/README.md) - Spring Framework 입문과 기본 개념
+- [Spring Core](./Spring/Core/README.md) - Spring의 핵심 기능과 디자인 패턴
+  - [Spring Container](./Spring/Core/Container/) - IoC 컨테이너와 Bean 생명주기
+  - [Spring Components](./Spring/Core/Component/) - 컴포넌트 스캔과 Bean 등록
+  - [Dependency Injection](./Spring/Core/Injection/) - 다양한 의존성 주입 방식과 활용
+- [Spring Tools](./Spring/Tools/README.md) - Spring 개발에 유용한 도구와 라이브러리
+  - [Lombok](./Spring/Tools/Lombok/) - 자바 코드 간소화를 위한 어노테이션 도구
 
-### English
-- [English Study](./English/README.md)
-  - [Basic English](./English/basics/README.md)
-  - [Practical English](./English/practical/README.md)
+### 기타 학습
+- [C++ 학습](./C++/101/README.md) - C++ 언어 기초와 메모리 관리
+- [웹 개발](./Web/README.md) - 웹 개발 기초와 서블릿 아키텍처
+- [영어 학습](./English/README.md) - 개발자를 위한 영어 공부
 
-## 🔍 More Information
-- This repository is created to organize and share personal learning experiences.
-- All content can be viewed in a more readable format through GitBook.
-- If you find any errors or have content to add, please let us know through PR or Issues.
+## 🔄 최근 업데이트
+
+- [Lombok 완벽 가이드](./Spring/Tools/Lombok/LombokGuide.md) - Lombok의 개념, 기능 및 활용법
+- [자바빈 프로퍼티 규약](./Java/Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈의 프로퍼티 규약과 활용 방법
+- [필드 주입과 테스트 이슈](./Spring/Core/Injection/FieldInjectionAndTestIssues.md) - @Autowired 필드 주입의 문제점과 테스트에서의 활용
+
+## 🔍 기여 방법
+
+이 저장소에 새로운 내용을 추가하거나 오류를 수정하고 싶다면:
+1. 이슈를 생성하거나
+2. Pull Request를 보내주세요.
+
+모든 피드백과 기여는 환영합니다!

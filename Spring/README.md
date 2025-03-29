@@ -1,6 +1,6 @@
 # 🌱 Spring Framework
 
-이 저장소는 Spring Framework와 Spring Boot에 대한 학습 내용을 정리한 공간입니다.
+Spring Framework와 Spring Boot에 대한 학습 내용을 정리한 공간입니다.
 
 ## 📚 Contents
 

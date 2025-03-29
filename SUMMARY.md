@@ -6,6 +6,7 @@
 
 ## Java
 
+* [Java 학습 노트](./Java/README.md)
 * [Java 101](./Java/101/README.md)
   * [Why Here?](./Java/101/README.md#why-here)
   * [Java Basics](./Java/101/java_basics.md)
@@ -64,6 +65,10 @@
     * [Component Scan](./Spring/Core/Component/Component_Scan.md)
   * [Dependency Injection](./Spring/Core/Injection/README.md)
     * [Field Injection and Test Issues](./Spring/Core/Injection/FieldInjectionAndTestIssues.md)
+
+* [Spring Tools](./Spring/Tools/README.md)
+  * [Lombok](./Spring/Tools/Lombok/README.md)
+    * [Lombok Complete Guide](./Spring/Tools/Lombok/LombokGuide.md)
 
 ## English
 
