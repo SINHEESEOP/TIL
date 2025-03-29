@@ -58,6 +58,8 @@
   * [Model vs Entity in Spring](./Spring/101/spring_model_vs_entity.md)
   * [AOP (Aspect Oriented Programming)](./Spring/101/spring_aop.md)
   * [Spring Evolution History](./Spring/101/spring_evolution_history.md)
+  * [FieldInjection](Spring/101/FieldInjection.md)
+  * [Autowired, Qualifier, Primary](Spring/101/AutowiredQualifierPrimary.md)
 
 * [Spring Core](./Spring/Core/README.md)
   * [Spring Container](./Spring/Core/Container/README.md)

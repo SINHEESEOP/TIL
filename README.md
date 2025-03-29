@@ -44,6 +44,9 @@
 - [Spring Tools](./Spring/Tools/README.md) - Spring 개발에 유용한 도구와 라이브러리
   - [Lombok](./Spring/Tools/Lombok/README.md) - 자바 코드 간소화를 위한 어노테이션 도구
     - [Lombok Complete Guide](./Spring/Tools/Lombok/LombokGuide.md) - Lombok 완벽 가이드
+- [스프링의 의존성 주입(DI) 방식과 필드 주입의 단점](./Spring/101/FieldInjection.md)
+- [데이터 객체 타입의 진화와 구분](./Spring/101/DataObjectTypes.md)
+- [Autowired, Qualifier, Primary로 의존성 주입 관리하기](./Spring/101/AutowiredQualifierPrimary.md)
 
 ### C++
 - [C++ 101](./C++/101/README.md) - C++ 언어 기초와 메모리 관리
@@ -73,3 +76,7 @@
 2. Pull Request를 보내주세요.
 
 모든 피드백과 기여는 환영합니다!
+
+## Java
+
+- [Lombok 가이드](./Java/LombokGuide.md)
