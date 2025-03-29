@@ -47,6 +47,7 @@
 - [스프링의 의존성 주입(DI) 방식과 필드 주입의 단점](./Spring/101/FieldInjection.md)
 - [데이터 객체 타입의 진화와 구분](./Spring/101/DataObjectTypes.md)
 - [Autowired, Qualifier, Primary로 의존성 주입 관리하기](./Spring/101/AutowiredQualifierPrimary.md)
+- [스프링에서 커스텀 애노테이션 만들기](./Spring/101/CustomAnnotation.md)
 
 ### C++
 - [C++ 101](./C++/101/README.md) - C++ 언어 기초와 메모리 관리

@@ -60,6 +60,7 @@
   * [Spring Evolution History](./Spring/101/spring_evolution_history.md)
   * [FieldInjection](Spring/101/FieldInjection.md)
   * [Autowired, Qualifier, Primary](Spring/101/AutowiredQualifierPrimary.md)
+  * [Custom Annotation](Spring/101/CustomAnnotation.md)
 
 * [Spring Core](./Spring/Core/README.md)
   * [Spring Container](./Spring/Core/Container/README.md)
