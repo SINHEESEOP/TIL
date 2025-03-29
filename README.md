@@ -29,6 +29,7 @@
   - [Spring Basics](./Spring/101/spring_basics.md) - 스프링 기초 개념
   - [Spring Beans and Dependency Injection](./Spring/101/spring_beans_and_dependency_injection.md) - 빈과 의존성 주입
   - [Data Objects in Spring](./Spring/101/data_objects_in_spring.md) - 스프링의 데이터 객체
+  - [Data Object Types](./Spring/101/DataObjectTypes.md) - DTO, Entity, VO, DAO 완벽 정리
   - [Spring Layered Architecture](./Spring/101/spring_layered_architecture.md) - 스프링 계층형 아키텍처
   - [Model vs Entity in Spring](./Spring/101/spring_model_vs_entity.md) - 모델과 엔티티 비교
   - [AOP (Aspect Oriented Programming)](./Spring/101/spring_aop.md) - 관점 지향 프로그래밍
@@ -64,6 +65,12 @@
 - [English Study](./English/README.md) - 개발자를 위한 영어 공부
   - [Basic English](./English/basics/README.md) - 기초 영어
   - [Practical English](./English/practical/README.md) - 실용 영어
+
+## 🔄 최근 업데이트
+
+- [Data Object Types](./Spring/101/DataObjectTypes.md) - DTO, Entity, VO, DAO 개념 완벽 정리
+- [Lombok 완벽 가이드](./Spring/Tools/Lombok/LombokGuide.md) - Lombok의 개념, 기능 및 활용법
+- [자바빈 프로퍼티 규약](./Java/Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈의 프로퍼티 규약과 활용 방법
 
 ## 🔍 기여 방법
 
