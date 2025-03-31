@@ -77,7 +77,3 @@
 2. Pull Request를 보내주세요.
 
 모든 피드백과 기여는 환영합니다!
-
-## Java
-
-- [Lombok 가이드](./Java/LombokGuide.md)
