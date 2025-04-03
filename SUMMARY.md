@@ -58,7 +58,6 @@
   * [ModelVsEntityInSpring](./Spring/101/spring_model_vs_entity.md) - 모델 vs 엔티티
   * [AOP](./Spring/101/spring_aop.md) - 관점 지향 프로그래밍
   * [SpringEvolutionHistory](./Spring/101/spring_evolution_history.md) - 스프링 발전 역사
-  * [FieldInjection](Spring/101/FieldInjection.md) - 스프링의 의존성 주입(DI) 방식과 필드 주입의 단점
   * [AutowiredQualifierPrimary](Spring/101/AutowiredQualifierPrimary.md) - Autowired, Qualifier, Primary로 의존성 주입 관리하기
   * [CustomAnnotation](Spring/101/CustomAnnotation.md) - 스프링에서 커스텀 애노테이션 만들기
   * [MultipleBeanInjection](Spring/101/MultipleBeanInjection.md) - 여러 빈 주입 받기(List, Map)

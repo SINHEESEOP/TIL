@@ -34,12 +34,12 @@
   - [ModelVsEntityInSpring](./Spring/101/spring_model_vs_entity.md) - 모델과 엔티티 비교
   - [AOP](./Spring/101/spring_aop.md) - 관점 지향 프로그래밍
   - [SpringEvolutionHistory](./Spring/101/spring_evolution_history.md) - 스프링 발전 역사
-  - [FieldInjection](./Spring/101/FieldInjection.md) - 스프링의 의존성 주입(DI) 방식과 필드 주입의 단점
   - [DataObjectTypes](./Spring/101/DataObjectTypes.md) - 데이터 객체 타입의 진화와 구분
   - [AutowiredQualifierPrimary](./Spring/101/AutowiredQualifierPrimary.md) - Autowired, Qualifier, Primary로 의존성 주입 관리하기
   - [CustomAnnotation](./Spring/101/CustomAnnotation.md) - 스프링에서 커스텀 애노테이션 만들기
   - [MultipleBeanInjection](./Spring/101/MultipleBeanInjection.md) - 여러 빈 주입 받기(List, Map)
   - [AutomanualBeansGuideline](./Spring/101/AutomanualBeansGuideline.md) - 자동 주입과 수동 빈 등록의 실무 운영 기준
+
 - [SpringCore](./Spring/Core/README.md) - Spring의 핵심 기능과 디자인 패턴
   - [SpringContainer](./Spring/Core/Container/README.md) - IoC 컨테이너와 Bean 생명주기
     - [SingletonContainer](./Spring/Core/Container/Singleton_Container.md) - 싱글톤 컨테이너 관리
@@ -47,6 +47,7 @@
     - [ComponentScan](./Spring/Core/Component/Component_Scan.md) - 컴포넌트 스캔 동작 원리
   - [DependencyInjection](./Spring/Core/Injection/README.md) - 다양한 의존성 주입 방식과 활용
     - [FieldInjectionAndTestIssues](./Spring/Core/Injection/FieldInjectionAndTestIssues.md) - 필드 주입의 문제점과 테스트
+
 - [SpringTools](./Spring/Tools/README.md) - Spring 개발에 유용한 도구와 라이브러리
   - [Lombok](./Spring/Tools/Lombok/README.md) - 자바 코드 간소화를 위한 어노테이션 도구
     - [LombokGuide](./Spring/Tools/Lombok/LombokGuide.md) - Lombok 완벽 가이드
