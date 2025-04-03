@@ -62,6 +62,7 @@
   * [CustomAnnotation](Spring/101/CustomAnnotation.md) - 스프링에서 커스텀 애노테이션 만들기
   * [MultipleBeanInjection](Spring/101/MultipleBeanInjection.md) - 여러 빈 주입 받기(List, Map)
   * [AutomanualBeansGuideline](Spring/101/AutomanualBeansGuideline.md) - 자동 주입과 수동 빈 등록의 실무 운영 기준
+  * [BeanScopeAndProvider](Spring/101/BeanScopeAndProvider.md) - 스프링 빈 스코프와 Provider의 이해와 활용
 
 * [SpringCore](./Spring/Core/README.md) - 스프링 코어
   * [SpringContainer](./Spring/Core/Container/README.md) - 스프링 컨테이너
