@@ -74,6 +74,8 @@
     - [HTTPAndWeb](./Web/network/http_and_web.md) - HTTP와 웹
     - [HTTPStatusCodes](./Web/network/http_status_codes.md) - HTTP 상태 코드
     - [HTTPHeaders](./Web/network/http_headers.md) - HTTP 헤더
+    - [HTTPHeadersPart1](./Web/network/http_headers_part1.md) - HTTP 헤더(1) - 기본 개념과 표현
+    - [HTTPHeadersPart2](./Web/network/http_headers_part2.md) - HTTP 헤더(2) - 정보, 인증, 쿠키
     - [URIAndWebRequestFlow](./Web/network/uri_and_web_request_flow.md) - URI, 웹 브라우저 요청 흐름, 클라이언트 서버 구조
     - [StatefulStateless](./Web/network/stateful_stateless.md) - Stateful, Stateless 그리고 비연결성
     - [HTTPMethods](./Web/network/http_methods.md) - HTTP 메서드
