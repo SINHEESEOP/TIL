@@ -6,9 +6,12 @@
 
 ### Java 기초
 - [Java 101](./101/README.md) - 자바 프로그래밍의 기본 개념과 문법
-  - 객체지향 프로그래밍의 개념과 원리
-  - 자바 언어의 기본 구문과 데이터 타입
-  - 클래스와 객체, 상속과 인터페이스
+  - [자바 기초](./101/java_basics.md) - 자바 기본 문법과 데이터 타입
+  - [객체지향 프로그래밍](./101/object_oriented_programming.md) - 객체지향의 개념과 원리
+  - [접근 제어자](./101/access_modifiers.md) - 접근 제어자와 가시성
+  - [JVM 메모리와 정적 요소](./101/jvm_memory_and_static.md) - JVM 메모리 관리와 static
+  - [final 제어자](./101/final_modifiers.md) - final 키워드의 활용
+  - [상속과 super](./101/inheritance_and_super.md) - 상속 구조와 super 키워드
 
 ### Java 심화
 - [Java Advanced](./Java_Advanced/README.md) - 자바의 고급 기능과 활용
@@ -16,14 +19,14 @@
 
 ### 궁금증 해결
 - [Java Q&A](./QnA/README.md) - 자바 관련 질문과 답변 모음
-  - JVM 관련 질문
-  - 자바 언어 특성에 관한 의문점
+  - [JVM 관련 질문](./QnA/concepts/jvm_questions.md) - JVM 메모리, JIT 컴파일러 등에 관한 질문
+  - [자식 타입이 부모 타입을 참조할 수 없는 이유](./QnA/concepts/why_child_cannot_reference_parent.md) - 타입 안정성과 관련된 질문
 
 ## 🔄 최근 업데이트
 
-- **JavaBean 프로퍼티 규약** - 자바빈 설계 규약과 프로퍼티 접근 방식
-- **JVM 메모리 관리** - 자바 가상 머신의 메모리 구조와 관리 방식
-- **상속과 인터페이스** - 객체지향 설계의 핵심 요소 활용법
+- **JVM 관련 질문** - JVM Metaspace와 PermGen 차이, JIT 컴파일러 최적화 전략 설명
+- **자식 타입이 부모 타입을 참조할 수 없는 이유** - 자바의 타입 안정성 보장 메커니즘 분석
+- **JavaBean 프로퍼티 규약** - 자바빈 설계 규약과 프로퍼티 접근 방식 설명
 
 ## 💡 학습 목표
 

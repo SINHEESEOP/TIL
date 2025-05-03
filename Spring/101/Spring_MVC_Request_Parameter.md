@@ -71,7 +71,8 @@ public class RequestBodyController {
 - `@Valid` 또는 `@Validated`와 함께 사용하여 검증 가능
 - **주의**: QueryString 파라미터는 처리하지 않음
 - **modelAttribute 나 RequestParam 처럼 생략 불가능**
-    - 당연하지만, 미적용 시 RequestParam -> modelAttribute 순으로 인식하기 때문이며 대부분 body 부분은 생략 불가. 
+    - 당연하지만, 미적용 시 RequestParam -> modelAttribute 순으로 인식하기 때문이며 대부분 body 부분은 생략 불가.
+    - 해당 어노테이션은 HTTP 메세지 컨버터가 처리함. 
 
 ## 3️⃣ 모델 파라미터 처리 - @ModelAttribute
 
