@@ -4,6 +4,17 @@
 
 * [TodayILearned](./README.md) - 오늘 배운 것
 
+## CS (Computer Science)
+
+* [Computer Science](./CS/README.md) - 컴퓨터 과학
+* [DataStructure](./CS/DataStructure/README.md) - 데이터 구조
+  * [LinkedHashMap](./CS/DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
+* [Algorithm](./CS/Algorithm/README.md) - 알고리즘
+* [컴퓨터 구조](./CS/컴퓨터구조/README.md) - 컴퓨터 구조
+  * [어셈블리 명령어의 구조](./CS/컴퓨터구조/어셈블리_명령어의_구조.md) - 어셈블리 명령어 구조
+  * [소스코드와 명령어](./CS/컴퓨터구조/소스코드_명령어.md) - 소스코드 실행 과정
+* [Operating System](./CS/운영체제/README.md) - 운영체제
+
 ## Java
 
 * [Java](./Java/README.md) - 자바 학습 노트
