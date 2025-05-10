@@ -6,7 +6,7 @@
 
 ### 명령어와 실행 과정
 - [Structure Of assembly instructions](./StructureOfassembly_instructions.md) - 어셈블리 명령어의 기본 구조와 요소
-- [SourceCode and Command](./SourceCode_and_Command.md) - 소스코드 실행 과정과 컴파일, 인터프리터 방식 비교
+- [SourceCode and Command`](./SourceCode_and_Command.md) - 소스코드 실행 과정과 컴파일, 인터프리터 방식 비교
 
 ## 🔍 학습 목표
 - 컴퓨터 아키텍처와 조직 이해

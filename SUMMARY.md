@@ -10,10 +10,13 @@
 * [DataStructure](./CS/DataStructure/README.md) - 데이터 구조
   * [LinkedHashMap](./CS/DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
 * [Algorithm](./CS/Algorithm/README.md) - 알고리즘
-* [컴퓨터 구조](./CS/컴퓨터구조/README.md) - 컴퓨터 구조
-  * [어셈블리 명령어의 구조](./CS/컴퓨터구조/어셈블리_명령어의_구조.md) - 어셈블리 명령어 구조
-  * [소스코드와 명령어](./CS/컴퓨터구조/소스코드_명령어.md) - 소스코드 실행 과정
-* [Operating System](./CS/운영체제/README.md) - 운영체제
+  * [TimeSpaceComplexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
+  * [BinarySearch](./CS/Algorithm/BinarySearch.md) - 이분탐색 알고리즘
+  * [TwoPointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
+* [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조
+  * [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조
+  * [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 실행 과정
+* [Operating System](./CS/Operating_System/README.md) - 운영체제
 
 ## Java
 

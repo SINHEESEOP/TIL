@@ -1,18 +1,20 @@
-# 👩🏻‍💻 Today I Learned
+# 📚 Today I Learned
 
 개발 공부를 하면서 배운 내용을 정리하는 저장소입니다. 모든 내용은 GitBook을 통해 더 편리하게 볼 수 있습니다.
 
 ## 📚 주요 카테고리
 
 ### CS (Computer Science)
-- [CS](./CS/README.md) - 컴퓨터 과학 기본 개념 정리
-- [DataStructure](./CS/DataStructure/README.md) - 데이터 구조
-  - [LinkedHashMap](./CS/DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
-- [Algorithm](./CS/Algorithm/README.md) - 알고리즘
-- [컴퓨터 구조](./CS/컴퓨터구조/README.md) - 컴퓨터 구조와 시스템
-  - [어셈블리 명령어의 구조](./CS/컴퓨터구조/어셈블리_명령어의_구조.md) - 어셈블리 명령어 구조 분석
-  - [소스코드와 명령어](./CS/컴퓨터구조/소스코드_명령어.md) - 소스코드의 컴파일 과정과 명령어 실행
-- [Operating System](./CS/운영체제/README.md) - 운영체제
+- [CS](./CS/README.md) - Computer Science Basic Concepts
+- [Data Structure](./CS/DataStructure/README.md) - Data Structures and Algorithms
+- [Algorithm](./CS/Algorithm/README.md) - Algorithms and Problem Solving
+  - [Time Space Complexity](./CS/Algorithm/TimeSpaceComplexity.md) - Time and Space Complexity
+  - [Binary Search](./CS/Algorithm/BinarySearch.md) - Binary Search Algorithm
+  - [Two Pointers](./CS/Algorithm/TwoPointers.md) - Two Pointers Technique
+- [Computer Architecture](./CS/Computer_Structure/README.md) - Computer Architecture and System
+  - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - Assembly Instruction Structure Analysis
+  - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - Source Code Compilation and Command Execution
+- [Operating System](./CS/Operating_System/README.md) - Operating System
 
 ### Java
 - [Java](./Java/README.md) - 자바 프로그래밍 언어 학습 정리
