@@ -14,6 +14,8 @@
 - [Computer Architecture](./CS/Computer_Structure/README.md) - Computer Architecture and System
   - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - Assembly Instruction Structure Analysis
   - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - Source Code Compilation and Command Execution
+  - [Computer Architecture Overview](./CS/Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
+  - [ALU and Control Unit](./CS/Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
 - [Operating System](./CS/Operating_System/README.md) - Operating System
 
 ### Java
@@ -103,7 +105,11 @@
   - [BasicEnglish](./English/basics/README.md) - 기초 영어
   - [PracticalEnglish](./English/practical/README.md) - 실용 영어
 
-## 🔍 기여 방법
+### Database
+- [Database](./DB/README.md) - 데이터베이스 기본 개념과 기술
+  - [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
+
+## 기여 방법
 
 이 저장소에 새로운 내용을 추가하거나 오류를 수정하고 싶다면:
 1. 이슈를 생성하거나

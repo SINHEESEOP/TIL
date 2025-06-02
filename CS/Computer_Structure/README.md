@@ -5,8 +5,11 @@
 ## 📚 주요 내용
 
 ### 명령어와 실행 과정
-- [Structure Of assembly instructions](./StructureOfassembly_instructions.md) - 어셈블리 명령어의 기본 구조와 요소
-- [SourceCode and Command`](./SourceCode_and_Command.md) - 소스코드 실행 과정과 컴파일, 인터프리터 방식 비교
+- [어셈블리 명령어의 구조](./Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
+- [소스코드와 명령어](./Computer_Structure/SourceCode_and_Command.md) - 소스코드의 컴파일 과정과 명령어 실행
+- [컴퓨터 구조 개요](./Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
+- [ALU와 제어장치](./Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
+
 
 ## 🔍 학습 목표
 - 컴퓨터 아키텍처와 조직 이해
