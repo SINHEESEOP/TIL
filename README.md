@@ -5,18 +5,18 @@
 ## 📚 주요 카테고리
 
 ### CS (Computer Science)
-- [CS](./CS/README.md) - Computer Science Basic Concepts
-- [Data Structure](./CS/DataStructure/README.md) - Data Structures and Algorithms
-- [Algorithm](./CS/Algorithm/README.md) - Algorithms and Problem Solving
-  - [Time Space Complexity](./CS/Algorithm/TimeSpaceComplexity.md) - Time and Space Complexity
-  - [Binary Search](./CS/Algorithm/BinarySearch.md) - Binary Search Algorithm
-  - [Two Pointers](./CS/Algorithm/TwoPointers.md) - Two Pointers Technique
-- [Computer Architecture](./CS/Computer_Structure/README.md) - Computer Architecture and System
-  - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - Assembly Instruction Structure Analysis
-  - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - Source Code Compilation and Command Execution
+- [CS](./CS/README.md) - 컴퓨터 과학 기본 개념
+- [Data Structure](./CS/DataStructure/README.md) - 자료구조와 알고리즘
+- [Algorithm](./CS/Algorithm/README.md) - 알고리즘과 문제 해결
+  - [Time Space Complexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
+  - [Binary Search](./CS/Algorithm/BinarySearch.md) - 이분탐색 알고리즘
+  - [Two Pointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
+- [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조와 시스템
+  - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
+  - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 컴파일과 명령어 실행
   - [Computer Architecture Overview](./CS/Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
   - [ALU and Control Unit](./CS/Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
-- [Operating System](./CS/Operating_System/README.md) - Operating System
+- [Operating System](./CS/Operating_System/README.md) - 운영체제
 
 ### Java
 - [Java](./Java/README.md) - 자바 프로그래밍 언어 학습 정리
