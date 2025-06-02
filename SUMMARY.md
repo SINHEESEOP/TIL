@@ -112,13 +112,17 @@
   * [Lombok](./Spring/Tools/Lombok/README.md) - 롬복
     * [LombokGuide](./Spring/Tools/Lombok/LombokGuide.md) - 롬복 가이드
 
-## English
+<!-- ## English
 
 * [EnglishStudy](./English/README.md) - 영어 공부
   * [BasicEnglish](./English/basics/README.md) - 기초 영어
-  * [PracticalEnglish](./English/practical/README.md) - 실용 영어
+  * [PracticalEnglish](./English/practical/README.md) - 실용 영어 -->
 
 ## Database
 
-* [Database](./DB/README.md) - 데이터베이스
-  * [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점
+* [Database](./DB/README.md) - 데이터베이스 기본 개념과 기술
+  * [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
+  * [Connection Pool](./ConnectionPool.md) - 커넥션 풀의 개념과 장단점 분석
+  * [Data Source](./DataSource.md) - 데이터 소스 설정 및 관리
+
+  
