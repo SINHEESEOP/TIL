@@ -10,6 +10,7 @@ Java 101을 공부하면서 기본 교재나 강의에서 다루지 않는 심�
 ### 개념 관련 질문
 - [Why Child Type Cannot Reference Parent Type](./concepts/why_child_cannot_reference_parent.md) - 자식 타입이 부모 타입을 참조할 수 없는 이유에 대한 설명
 - [JVM Questions](./concepts/jvm_questions.md) - JVM 관련 심화 질문 모음
+- [Interface vs Abstract Class](./interface_vs_abstract.md) - 인터페이스와 추상클래스의 차이점 분석
 
 <!-- - [OOP 관련 질문](./concepts/oop_questions.md) -->
 <!-- - [메모리 관리 질문](./concepts/memory_management.md)

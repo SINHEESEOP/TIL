@@ -36,6 +36,7 @@
 - [JavaQnA](./Java/QnA/README.md) - 자바 관련 질문과 답변
   - [JVMQuestions](./Java/QnA/concepts/jvm_questions.md) - JVM 관련 질문 모음 (메모리, JIT 컴파일러)
   - [WhyChildTypeCannotReferenceParentType](./Java/QnA/concepts/why_child_cannot_reference_parent.md) - 자식 타입이 부모 타입을 참조할 수 없는 이유
+  - [Interface vs Abstract Class](./Java/QnA/interface_vs_abstract.md) - 인터페이스와 추상클래스의 차이점 분석
 
 ### Spring
 - [Spring101](./Spring/101/README.md) - Spring Framework 입문과 기본 개념
@@ -107,9 +108,11 @@
 
 ### Database
 - [Database](./DB/README.md) - 데이터베이스 기본 개념과 기술
+  - [Connection Pool](./DB/ConnectionPool.md) - 커넥션 풀의 개념과 장단점 분석
+  - [Data Source](./DB/DataSource.md) - 데이터 소스 설정 및 관리
+  - [Session](./DB/Session.md) - 세션 개념 및 정의
+  - [Transaction and ACID](./DB/Transaction_ACID.md) - 트랜잭션과 ACID 속성 상세 설명
   - [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
-  - [Connection Pool](./ConnectionPool.md) - 커넥션 풀의 개념과 장단점 분석
-  - [Data Source](./DataSource.md) - 데이터 소스 설정 및 관리
 
 ## 기여 방법
 
