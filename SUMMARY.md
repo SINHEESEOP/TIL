@@ -127,6 +127,7 @@
   * [Session](./DB/Session.md) - 세션 개념 및 정의
   * [Transaction and ACID](./DB/Transaction_ACID.md) - 트랜잭션과 ACID 속성 상세 설명
   * [Transaction Manager](./DB/TransactionManger.md) - 트랜잭션 매니저의 커넥션 관리 및 동작 원리
+  * [Transaction Template](./DB/TransactionTemplate.md) - 프로그래밍 방식 트랜잭션 제어
   * [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점
 
   
