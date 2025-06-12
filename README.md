@@ -115,6 +115,7 @@
   - [Transaction Manager](./DB/TransactionManger.md) - 트랜잭션 매니저의 커넥션 관리 및 동작 원리
   - [Transaction Template](./DB/TransactionTemplate.md) - 프로그래밍 방식 트랜잭션 제어
   - [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
+  - [Spring DB Exception Abstraction](./DB/SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
 
 ## 기여 방법
 

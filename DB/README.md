@@ -16,3 +16,4 @@
 
 ### 데이터 접근 기술
 - [SQL Mapper and ORM](./SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
+- [Spring DB Exception Abstraction](./SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
