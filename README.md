@@ -12,6 +12,7 @@
   - [Binary Search](./CS/Algorithm/BinarySearch.md) - 이분탐색 알고리즘
   - [Two Pointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
 - [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조와 시스템
+  - [Register](./CS/Computer_Structure/Register.md) - CPU 레지스터의 종류와 역할
   - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
   - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 컴파일과 명령어 실행
   - [Computer Architecture Overview](./CS/Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
