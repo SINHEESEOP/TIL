@@ -21,6 +21,6 @@
   - [소스코드와 명령어](./Computer_Structure/SourceCode_and_Command.md) - 소스코드의 컴파일 과정과 명령어 실행
   - [컴퓨터 구조 개요](./Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
   - [ALU와 제어장치](./Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
-
+  - [인터럽트 및 예외 요약](./Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
 ### 운영체제 (Operating System)
 - [운영체제](./Operating_System/README.md) - 운영체제 기본 개념과 동작 원리 

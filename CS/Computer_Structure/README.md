@@ -7,6 +7,7 @@
 ### CPU 구성 요소
 - [레지스터](./Register.md) - CPU 레지스터의 종류와 역할
 - [ALU와 제어장치](./ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
+- [인터럽트 및 예외 요약](./interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약 ⚡
 
 ### 명령어와 실행 과정
 - [어셈블리 명령어의 구조](./StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
