@@ -25,12 +25,15 @@ Spring Framework와 Spring Boot에 대한 학습 내용을 정리한 공간입�
 - [Dependency Injection](./Core/Injection/README.md)
   - [Field Injection and Test Issues](./Core/Injection/FieldInjectionAndTestIssues.md) - @Autowired 필드 주입의 문제점과 테스트에서의 활용 방안
 
+### Spring MVC
+- [Spring MVC 가이드](./MVC/README.md) 🚀
+  - [Spring MVC Evolution](./MVC/Spring_MVC_Evolution.md) - 스프링 MVC의 발전 역사
+  - [Request Mapping](./MVC/Spring_MVC_Request_Mapping.md) - 요청 매핑
+  - [Request Parameter](./MVC/Spring_MVC_Request_Parameter.md) - 요청 파라미터 처리  
+  - [Filter and Interceptor](./MVC/spring_filter_and_interceptor.md) - 필터와 인터셉터 🚧
+  - [Response](./MVC/Spring_MVC_Response.md) - HTTP 응답 처리
+
 ### Spring 주요 모듈
-- **Spring MVC**: 웹 애플리케이션 개발을 위한 프레임워크
-  - [Spring MVC Evolution](./101/Spring_MVC_Evolution.md) - 스프링 MVC의 발전 역사
-  - [Request Mapping](./101/Spring_MVC_Request_Mapping.md) - 요청 매핑
-  - [Request Parameter](./101/Spring_MVC_Request_Parameter.md) - 요청 파라미터 처리
-  - [Response](./101/Spring_MVC_Response.md) - HTTP 응답 처리
 - **Spring Data**: 데이터 액세스 기술 지원
 - **Spring Security**: 보안 기능 제공
 - **Spring Boot**: 스프링 기반 애플리케이션의 빠른 개발 지원

@@ -90,18 +90,11 @@ Spring Framework는 Java 기반의 엔터프라이즈 애플리케이션 개발�
   - 현대 자바 엔터프라이즈 기술 스택
 
 ### 9. 스프링 MVC
-- [Spring MVC Evolution](./Spring_MVC_Evolution.md)
-  - 스프링 MVC의 발전 역사
-  - 기본 구조와 흐름
-- [Spring MVC Request Mapping](./Spring_MVC_Request_Mapping.md)
-  - HTTP 요청 매핑
-  - 경로 변수와 파라미터
-- [Spring MVC Request Parameter](./Spring_MVC_Request_Parameter.md)
-  - 다양한 파라미터 처리 방법
-  - HTTP 요청 메시지 처리
-- [Spring MVC Response](./Spring_MVC_Response.md)
-  - HTTP 응답 생성
-  - 뷰 템플릿과 JSON 응답
+- **Spring MVC 관련 문서들은 [../MVC/README.md](../MVC/README.md)로 이동하였습니다** 🔄
+  - Spring MVC 진화 과정
+  - 요청/응답 처리 메커니즘
+  - 필터와 인터셉터 활용
+  - HTTP 매핑과 파라미터 처리
 
 ### 10. 소프트웨어 설계 원칙
 - [SOLID 원칙](./solid_principles.md)
