@@ -13,8 +13,10 @@
   - [Two Pointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
 - [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조와 시스템
   - [Register](./CS/Computer_Structure/Register.md) - CPU 레지스터의 종류와 역할
+  - [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념
   - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
   - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 컴파일과 명령어 실행
+  - [Instruction Level Parallelism](./CS/Computer_Structure/instruction_level_parallelism.md) - 명령어 병렬 처리 기법 (파이프라이닝, 슈퍼스칼라, 비순차적 처리)
   - [Computer Architecture Overview](./CS/Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
   - [ALU and Control Unit](./CS/Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
   - [Interrupt 및 예외 요약](./CS/Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
