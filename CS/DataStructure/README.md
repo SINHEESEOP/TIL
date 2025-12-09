@@ -6,7 +6,7 @@
 
 ### 해시 기반 컬렉션
 - [자료구조_개념서](./자료구조_개념서.md) - 자료구조의 근본과 이해
-- [hash](./hash.md) - 해시 용어 설명 및 개념
+- [Hash](./Hash.md) - 해시 용어 설명 및 개념
 - [LinkedHashMap](./LinkedHashMap.md) - LinkedHashMap 구현 및 개념, 순서 유지 특성 정리
 
 ## 🔍 학습 목표

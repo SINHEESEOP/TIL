@@ -6,7 +6,7 @@
 
 ### [데이터 구조](./DataStructure/README.md) - 다양한 데이터 구조의 개념과 구현
   - [자료구조_개념서](./자료구조_개념서.md) - 자료구조의 근본과 이해
-  - [hash](./hash.md) - 해시 용어 설명 및 개념
+  - [Hash](./Hash.md) - 해시 용어 설명 및 개념
   - [LinkedHashMap](./DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
 
 ### [알고리즘](./Algorithm/README.md) - 다양한 알고리즘 학습 및 구현
