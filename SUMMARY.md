@@ -8,7 +8,10 @@
 
 * [Computer Science](./CS/README.md) - 컴퓨터 과학
 * [DataStructure](./CS/DataStructure/README.md) - 데이터 구조
+  * [자료구조_개념서](./CS/DataStructure/자료구조_개념서.md) - 자료구조의 근본과 이해
+  * [Hash](./CS/DataStructure/Hash.md) - 해시 용어 설명 및 개념
   * [LinkedHashMap](./CS/DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
+  * [Tree](./CS/DataStructure/Tree.md) - 트리(Tree) 및 관련 파생 개념 정리
 * [Algorithm](./CS/Algorithm/README.md) - 알고리즘
   * [TimeSpaceComplexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
   * [BinarySearch](./CS/Algorithm/BinarySearch.md) - 이분탐색 알고리즘
