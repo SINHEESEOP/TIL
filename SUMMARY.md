@@ -142,4 +142,9 @@
   * [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점
   * [Spring DB Exception Abstraction](./DB/SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
 
-  
+## Terminology (용어 정리)
+
+* [Terminology](./Terminology/README.md) - 용어 정리 노트
+  * 용어의 어원/기원, 일상·타 업계·개발 업계(개발자/QA/PM)에서의 사용법, 나만의 정의 정리
+
+
