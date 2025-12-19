@@ -34,3 +34,5 @@ Understanding how to use final modifiers.
 ### [Inheritance and Super](inheritance_and_super.md)
 Understanding inheritance and super in Java.
 
+### [Object Comparison](objectComparison.md)
+Understanding how to compare objects in Java (== vs equals()).

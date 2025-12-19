@@ -12,6 +12,7 @@
   - [JVM 메모리와 정적 요소](./101/jvm_memory_and_static.md) - JVM 메모리 관리와 static
   - [final 제어자](./101/final_modifiers.md) - final 키워드의 활용
   - [상속과 super](./101/inheritance_and_super.md) - 상속 구조와 super 키워드
+  - [객체의 비교](./101/objectComparison.md) - Comparable, Comparator
 
 ### Java 심화
 - [Java Advanced](./Java_Advanced/README.md) - 자바의 고급 기능과 활용

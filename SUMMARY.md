@@ -42,6 +42,7 @@
   * [DifferentMachineInterpretationByOS](./Java/101/why_different_machine_interpretation_by_os.md) - OS별 머신 해석 차이
   * [FinalModifiers](./Java/101/final_modifiers.md) - final 제어자
   * [InheritanceAndSuper](./Java/101/inheritance_and_super.md) - 상속과 super
+  * [ObjectComparison](./Java/101/objectComparison.md) - 객체 비교 (== vs equals())
 
 * [JavaAdvanced](./Java/Java_Advanced/README.md) - 자바 고급
   * [JavaBeanPropertyConvention](./Java/Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈 프로퍼티 규약
