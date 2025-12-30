@@ -7,8 +7,11 @@
 ### [데이터 구조](./DataStructure/README.md) - 다양한 데이터 구조의 개념과 구현
   - [자료구조_개념서](./DataStructure/자료구조_개념서.md) - 자료구조의 근본과 이해
   - [Hash](./DataStructure/Hash.md) - 해시 용어 설명 및 개념
+    - [OpenAddressing](./DataStructure/OpenAddressing.md) - 개방 주소법과 탐색 전략
+  - [Set](./DataStructure/Set.md) - 집합(Set)의 개념과 구현체 비교
   - [LinkedHashMap](./DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
   - [Tree](./DataStructure/Tree.md) - 트리(Tree) 및 관련 파생 개념 정리
+  - [AdvancedTree](./DataStructure/AdvancedTree.md) - 고급 트리 (AVL, Red-Black, B-Tree 등)
 
 ### [알고리즘](./Algorithm/README.md) - 다양한 알고리즘 학습 및 구현
   - [시공간 복잡도](./Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도의 개념과 계산 방법

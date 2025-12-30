@@ -9,8 +9,11 @@
 - [Data Structure](./CS/DataStructure/README.md) - 자료구조와 알고리즘
   - [자료구조_개념서](./CS/DataStructure/자료구조_개념서.md) - 자료구조의 근본과 이해
   - [Hash](./CS/DataStructure/Hash.md) - 해시 용어 설명 및 개념
+    - [OpenAddressing](./CS/DataStructure/OpenAddressing.md) - 개방 주소법의 탐색 전략과 삭제 메커니즘
+  - [Set](./CS/DataStructure/Set.md) - 집합(Set)의 개념과 구현체 비교 (HashSet, TreeSet 등)
   - [LinkedHashMap](./CS/DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념, 순서 유지 특성 정리
   - [Tree](./CS/DataStructure/Tree.md) - 트리(Tree) 및 관련 파생 개념 정리
+  - [AdvancedTree](./CS/DataStructure/AdvancedTree.md) - 고급 트리 (AVL, Red-Black, B-Tree 등)
 - [Algorithm](./CS/Algorithm/README.md) - 알고리즘과 문제 해결
   - [Time Space Complexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
   - [Binary Search](./CS/Algorithm/BinarySearch.md) - 이분탐색 알고리즘
