@@ -1,7 +1,3 @@
-아래는 지금까지 학습한 **`MyLinkedHashMap` 구현과 해시맵 내부 동작 원리, 주요 질문에 대한 정리**를 기반으로 만든 **TIL(Today I Learned) 정리**입니다.
-
----
-
 ## 📌 1. `MyLinkedHashMap` 구현 (삽입 순서 유지)
 
 ```java
