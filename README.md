@@ -6,18 +6,29 @@
 
 ### CS (Computer Science)
 - [CS](./CS/README.md) - 컴퓨터 과학 기본 개념
-- [Data Structure](./CS/DataStructure/README.md) - 자료구조와 알고리즘
-  - [자료구조_개념서](./CS/DataStructure/자료구조_개념서.md) - 자료구조의 근본과 이해
-  - [Hash](./CS/DataStructure/Hash.md) - 해시 용어 설명 및 개념
-    - [OpenAddressing](./CS/DataStructure/OpenAddressing.md) - 개방 주소법의 탐색 전략과 삭제 메커니즘
-  - [Set](./CS/DataStructure/Set.md) - 집합(Set)의 개념과 구현체 비교 (HashSet, TreeSet 등)
-  - [LinkedHashMap](./CS/DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념, 순서 유지 특성 정리
-  - [Tree](./CS/DataStructure/Tree.md) - 트리(Tree) 및 관련 파생 개념 정리
-  - [AdvancedTree](./CS/DataStructure/AdvancedTree.md) - 고급 트리 (AVL, Red-Black, B-Tree 등)
+- [Data Structure](./CS/DataStructure/README.md) - 자료구조
+  - [자료구조 개념서](./CS/DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
+  - **02_ADT/** (추상 자료형)
+    - [Map](./CS/DataStructure/02_ADT/Map.md) - 맵(Map)의 개념과 구현체 비교
+    - [Set](./CS/DataStructure/02_ADT/Set.md) - 집합(Set)의 개념과 구현체 비교
+  - **03_Structure/** (자료구조)
+    - [HashTable](./CS/DataStructure/03_Structure/HashTable.md) - 해시 테이블 자료구조
+    - **Tree/**
+      - [Tree](./CS/DataStructure/03_Structure/Tree/Tree.md) - 트리 구조의 개념과 종류
+      - [AdvancedTree_Overview](./CS/DataStructure/03_Structure/Tree/AdvancedTree_Overview.md) - 고급 트리 간략 정리
+  - **04_Implementation/** (구현체)
+    - [Java_HashMap](./CS/DataStructure/04_Implementation/java/Java_HashMap.md) - Java HashMap 구현체
+    - [Java_LinkedHashMap](./CS/DataStructure/04_Implementation/java/Java_LinkedHashMap.md) - 순서를 기억하는 Map
+
 - [Algorithm](./CS/Algorithm/README.md) - 알고리즘과 문제 해결
+  - **Hash/**
+    - [Hash](./CS/Algorithm/Hash/Hash.md) - 해시 용어 설명 및 개념
+    - [OpenAddressing](./CS/Algorithm/Hash/OpenAddressing.md) - 개방 주소법과 탐색 전략
   - [Time Space Complexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
   - [Binary Search](./CS/Algorithm/BinarySearch.md) - 이분탐색 알고리즘
   - [Two Pointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
+
+
 - [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조와 시스템
   - [Register](./CS/Computer_Structure/Register.md) - CPU 레지스터의 종류와 역할
   - [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념

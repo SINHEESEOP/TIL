@@ -5,15 +5,25 @@
 ## 📚 주요 카테고리
 
 ### [데이터 구조](./DataStructure/README.md) - 다양한 데이터 구조의 개념과 구현
-  - [자료구조_개념서](./DataStructure/자료구조_개념서.md) - 자료구조의 근본과 이해
-  - [Hash](./DataStructure/Hash.md) - 해시 용어 설명 및 개념
-    - [OpenAddressing](./DataStructure/OpenAddressing.md) - 개방 주소법과 탐색 전략
-  - [Set](./DataStructure/Set.md) - 집합(Set)의 개념과 구현체 비교
-  - [LinkedHashMap](./DataStructure/LinkedHashMap.md) - LinkedHashMap 구현 및 개념 정리
-  - [Tree](./DataStructure/Tree.md) - 트리(Tree) 및 관련 파생 개념 정리
-  - [AdvancedTree](./DataStructure/AdvancedTree.md) - 고급 트리 (AVL, Red-Black, B-Tree 등)
+  - [자료구조 개념서](./DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
+  - **02_ADT/** (추상 자료형)
+    - [Map](./DataStructure/02_ADT/Map.md) - 맵(Map)의 개념과 구현체 비교
+    - [Set](./DataStructure/02_ADT/Set.md) - 집합(Set)의 개념과 구현체 비교
+  - **03_Structure/** (자료구조)
+    - [HashTable](./DataStructure/03_Structure/HashTable.md) - 해시 테이블 자료구조
+    - **Tree/**
+      - [Tree](./DataStructure/03_Structure/Tree/Tree.md) - 트리 구조의 개념과 종류
+      - [AdvancedTree_Overview](./DataStructure/03_Structure/Tree/AdvancedTree_Overview.md) - 고급 트리 간략 정리
+  - **04_Implementation/** (구현체)
+    - [Java_HashMap](./DataStructure/04_Implementation/java/Java_HashMap.md) - Java HashMap 구현체
+    - [Java_Hashtable](./DataStructure/04_Implementation/java/Java_Hashtable.md) - 레거시 Hashtable 클래스
+    - [Java_LinkedHashMap](./DataStructure/04_Implementation/java/Java_LinkedHashMap.md) - 순서를 기억하는 Map
+
 
 ### [알고리즘](./Algorithm/README.md) - 다양한 알고리즘 학습 및 구현
+  - **Hash/**
+    - [Hash](./Algorithm/Hash/Hash.md) - 해시 용어 설명 및 개념
+    - [OpenAddressing](./Algorithm/Hash/OpenAddressing.md) - 개방 주소법과 탐색 전략
   - [시공간 복잡도](./Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도의 개념과 계산 방법
   - [이분탐색](./Algorithm/BinarySearch.md) - 이분탐색 알고리즘의 개념과 구현
   - [투포인터](./Algorithm/TwoPointers.md) - 투포인터 기법의 개념과 활용
@@ -29,4 +39,5 @@
   - [ALU와 제어장치](./Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
   - [인터럽트 및 예외 요약](./Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
 
-### [운영체제](./Operating_System/README.md) - 운영체제 기본 개념과 동작 원리 
+
+### [운영체제](./Operating_System/README.md) - 운영체제 기본 개념과 동작 원리
