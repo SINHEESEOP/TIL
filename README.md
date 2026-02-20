@@ -5,7 +5,6 @@
 ## 📚 주요 카테고리
 
 ### CS (Computer Science)
-- [CS](./CS/README.md) - 컴퓨터 과학 기본 개념
 - [Data Structure](./CS/DataStructure/README.md) - 자료구조
   - [자료구조 개념서](./CS/DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
   - **02_ADT/** (추상 자료형)
