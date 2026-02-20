@@ -1,26 +1,29 @@
-# 📚 Today I Learned
+# Today I Learned
 
 개발 공부를 하면서 배운 내용을 정리하는 저장소입니다. 모든 내용은 GitBook을 통해 더 편리하게 볼 수 있습니다.
 
 ## 📚 주요 카테고리
 
 ### CS (Computer Science)
-- [Data Structure](./CS/DataStructure/README.md) - 자료구조
+- [Data Structure](./CS/DataStructure/README.md) - 데이터 구조
   - [자료구조 개념서](./CS/DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
-  - **02_ADT/** (추상 자료형)
+  - **01_Physical_Basis** (물리적 기반)
+    - [Physical Basis](./CS/DataStructure/01_Physical_Basis/README.md) - 배열/연결 기반 물리 구조
+  - **02_ADT** (추상 자료형)
     - [Map](./CS/DataStructure/02_ADT/Map.md) - 맵(Map)의 개념과 구현체 비교
-    - [Set](./CS/DataStructure/02_ADT/Set.md) - 집합(Set)의 개념과 구현체 비교
-  - **03_Structure/** (자료구조)
+    - [Set](./CS/DataStructure/02_ADT/Set.md) - 집합(Set)의 개념과 특징
+  - **03_Structure** (자료구조)
     - [HashTable](./CS/DataStructure/03_Structure/HashTable.md) - 해시 테이블 자료구조
     - **Tree/**
       - [Tree](./CS/DataStructure/03_Structure/Tree/Tree.md) - 트리 구조의 개념과 종류
       - [AdvancedTree_Overview](./CS/DataStructure/03_Structure/Tree/AdvancedTree_Overview.md) - 고급 트리 간략 정리
-  - **04_Implementation/** (구현체)
+  - **04_Implementation** (구현체)
     - [Java_HashMap](./CS/DataStructure/04_Implementation/java/Java_HashMap.md) - Java HashMap 구현체
+    - [Java_Hashtable](./CS/DataStructure/04_Implementation/java/Java_Hashtable.md) - 레거시 Hashtable 클래스
     - [Java_LinkedHashMap](./CS/DataStructure/04_Implementation/java/Java_LinkedHashMap.md) - 순서를 기억하는 Map
 
 - [Algorithm](./CS/Algorithm/README.md) - 알고리즘과 문제 해결
-  - **Hash/**
+  - **Hash**
     - [Hash](./CS/Algorithm/Hash/Hash.md) - 해시 용어 설명 및 개념
     - [OpenAddressing](./CS/Algorithm/Hash/OpenAddressing.md) - 개방 주소법과 탐색 전략
   - [Time Space Complexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
@@ -28,9 +31,9 @@
   - [Two Pointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
 
 
-- [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조와 시스템
+- [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조
   - [Register](./CS/Computer_Structure/Register.md) - CPU 레지스터의 종류와 역할
-  - [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념
+  - [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념
   - [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
   - [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 컴파일과 명령어 실행
   - [Instruction Level Parallelism](./CS/Computer_Structure/instruction_level_parallelism.md) - 명령어 병렬 처리 기법 (파이프라이닝, 슈퍼스칼라, 비순차적 처리)
@@ -115,7 +118,7 @@
 - [WebDevelopment](./Web/README.md) - 웹 개발 기초와 서블릿 아키텍처
   - [Web101](./Web/basics/README.md) - 웹 개발 기초
     - [ServletAndWASArchitecture](./Web/basics/servlet_was_architecture.md) - 서블릿과 WAS 구조
-  - [NetworkAndInternet](./Web/network/README.md) - 인터넷 통신과 네트워크
+  - [Network](./Web/network/README.md) - 네트워크
     - [InternetNetworkBasics](./Web/network/internet_network_basics.md) - 인터넷 통신과 네트워크 기초
     - [HTTPAndWeb](./Web/network/http_and_web.md) - HTTP와 웹
     - [HTTPStatusCodes](./Web/network/http_status_codes.md) - HTTP 상태 코드
@@ -143,8 +146,9 @@
   - [Spring DB Exception Abstraction](./DB/SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
 
 ### Terminology (용어 정리)
-- [Terminology](./Terminology/README.md) - 개발 용어 정리 노트
-  - 용어의 어원/기원부터 일상, 타 업계, 개발 업계(개발자/QA/PM)에서의 사용법과 나만의 정의까지 정리
+- [Terminology](./Terminology/README.md) - 용어 정리 노트
+  - 용어의 어원/기원, 일상·타 업계·개발 업계(개발자/QA/PM)에서의 사용법, 나만의 정의 정리
+  - [Module](./Terminology/Module.md) - 모듈(부품 vs 규격, 인터페이스와의 관계)
 
 ## 기여 방법
 
