@@ -6,23 +6,24 @@
 
 ## CS (Computer Science)
 
-* [Computer Science](./CS/README.md) - 컴퓨터 과학
 * [DataStructure](./CS/DataStructure/README.md) - 데이터 구조
   * [자료구조 개념서](./CS/DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
-  * **02_ADT/** (추상 자료형)
+  * **01_Physical_Basis** (물리적 기반)
+    * [Physical Basis](./CS/DataStructure/01_Physical_Basis/README.md) - 배열/연결 기반 물리 구조
+  * **02_ADT** (추상 자료형)
     * [Map](./CS/DataStructure/02_ADT/Map.md) - 맵(Map)의 개념과 구현체 비교
     * [Set](./CS/DataStructure/02_ADT/Set.md) - 집합(Set)의 개념과 특징
-  * **03_Structure/** (자료구조)
+  * **03_Structure** (자료구조)
     * [HashTable](./CS/DataStructure/03_Structure/HashTable.md) - 해시 테이블 자료구조
     * **Tree/**
       * [Tree](./CS/DataStructure/03_Structure/Tree/Tree.md) - 트리 구조의 개념과 종류
       * [AdvancedTree_Overview](./CS/DataStructure/03_Structure/Tree/AdvancedTree_Overview.md) - 고급 트리 간략 정리
-  * **04_Implementation/** (구현체)
+  * **04_Implementation** (구현체)
     * [Java_HashMap](./CS/DataStructure/04_Implementation/java/Java_HashMap.md) - Java HashMap 구현체
     * [Java_Hashtable](./CS/DataStructure/04_Implementation/java/Java_Hashtable.md) - 레거시 Hashtable 클래스
     * [Java_LinkedHashMap](./CS/DataStructure/04_Implementation/java/Java_LinkedHashMap.md) - 순서를 기억하는 Map
 * [Algorithm](./CS/Algorithm/README.md) - 알고리즘
-  * **Hash/**
+  * **Hash**
     * [Hash](./CS/Algorithm/Hash/Hash.md) - 해시 용어 설명 및 개념
     * [OpenAddressing](./CS/Algorithm/Hash/OpenAddressing.md) - 개방 주소법과 탐색 전략
   * [TimeSpaceComplexity](./CS/Algorithm/TimeSpaceComplexity.md) - 시간 복잡도와 공간 복잡도
@@ -30,10 +31,9 @@
   * [TwoPointers](./CS/Algorithm/TwoPointers.md) - 투포인터 기법
 * [Computer Architecture](./CS/Computer_Structure/README.md) - 컴퓨터 구조
   * [Register](./CS/Computer_Structure/Register.md) - CPU 레지스터의 종류와 역할
-  * [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념
+  * [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념
   * [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조
   * [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 실행 과정
-  * [Instruction Level Parallelism](./CS/Computer_Structure/instruction_level_parallelism.md) - 명령어 병렬 처리 기법 (파이프라이닝, 슈퍼스칼라, 비순차적 처리)
   * [Computer Architecture Overview](./CS/Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
   * [ALU and Control Unit](./CS/Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
   * [Interrupt 및 예외 요약](./CS/Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
@@ -53,7 +53,7 @@
   * [JVMMemoryAndStatic](./Java/101/jvm_memory_and_static.md) - JVM 메모리와 정적
   * [DifferentMachineInterpretationByOS](./Java/101/why_different_machine_interpretation_by_os.md) - OS별 머신 해석 차이
   * [FinalModifiers](./Java/101/final_modifiers.md) - final 제어자
-  * [InheritanceAndSuper](./Java/101/inheritance_and_super.md) - 상속과 super
+  * [InheritanceAndSuper](./Java/101/Inheritance_and_super.md) - 상속과 super
   * [ObjectComparison](./Java/101/objectComparison.md) - 객체 비교 (== vs equals())
 
 * [JavaAdvanced](./Java/Java_Advanced/README.md) - 자바 고급
@@ -158,5 +158,6 @@
 
 * [Terminology](./Terminology/README.md) - 용어 정리 노트
   * 용어의 어원/기원, 일상·타 업계·개발 업계(개발자/QA/PM)에서의 사용법, 나만의 정의 정리
+  * [Module](./Terminology/Module.md) - 모듈(부품 vs 규격, 인터페이스와의 관계)
 
 
