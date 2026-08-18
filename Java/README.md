@@ -17,6 +17,8 @@
 ### Java 심화
 - [Java Advanced](./Java_Advanced/README.md) - 자바의 고급 기능과 활용
   - [JavaBean 프로퍼티 규약](./Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈의 프로퍼티 설계와 활용
+  - [자바-람다-동작원리와-함수형-개념](./Java_Advanced/자바-람다-동작원리와-함수형-개념.md) - Java에서의 함수형 패러다임: 람다의 내부 동작 원리와 일급 객체·고차 함수·동작 파라미터화의 관계
+
 
 ### 궁금증 해결
 - [Java Q&A](./QnA/README.md) - 자바 관련 질문과 답변 모음
