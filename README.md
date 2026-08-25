@@ -146,10 +146,19 @@
   - [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
   - [Spring DB Exception Abstraction](./DB/SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
 
+### DevOps
+- [DevOps](./DevOps/README.md) - 데옵스 및 인프라 기본 개념과 기술
+  - [Docker](./DevOps/Docker/README.md) - 도커(Docker) 컨테이너 가상화 기술
+
 ### Terminology (용어 정리)
 - [Terminology](./Terminology/README.md) - 용어 정리 노트
   - 용어의 어원/기원, 일상·타 업계·개발 업계(개발자/QA/PM)에서의 사용법, 나만의 정의 정리
   - [Module](./Terminology/Module.md) - 모듈(부품 vs 규격, 인터페이스와의 관계)
+
+### Troubleshooting
+- [Troubleshooting](./Troubleshooting/README.md) - 트러블슈팅 정리
+  - [java.lang.NullPointerException at UserService.login](./Troubleshooting/java.lang.NullPointerException_at_UserService_login.md)
+  - [JPA N+1 Post List Select](./Troubleshooting/JPA_NPlusOne_Post_List_Select.md)
 
 ## 기여 방법
 
