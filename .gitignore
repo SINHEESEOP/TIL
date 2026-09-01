@@ -13,4 +13,7 @@ Desktop.ini
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo
+
+# Claude Code 프로젝트 지침 파일 (로컬 전용)
+CLAUDE.md 

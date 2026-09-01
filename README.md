@@ -161,6 +161,17 @@
   - [java.lang.NullPointerException at UserService.login](./Troubleshooting/java.lang.NullPointerException_at_UserService_login.md)
   - [JPA N+1 Post List Select](./Troubleshooting/JPA_NPlusOne_Post_List_Select.md)
 
+### Claude Code
+- [Claude](./Claude/README.md) - Claude Code 사용법과 개념 정리
+  - [기본 사용법](./Claude/기본사용법.md) - Claude Code가 뭐고 어떻게 동작하는지, 기본 개념
+  - [권한 모드](./Claude/권한모드.md) - 도구 실행을 얼마나 자동으로 승인할지 정하는 설정
+  - [서브에이전트](./Claude/서브에이전트.md) - 작업을 별도 에이전트에 위임하는 방식
+  - [훅](./Claude/훅.md) - 특정 이벤트에 맞춰 자동으로 명령을 실행하는 설정
+  - [스킬](./Claude/스킬.md) - 슬래시 커맨드로 불러쓰는 재사용 가능한 작업 절차
+  - [MCP 서버](./Claude/MCP서버.md) - 외부 도구와 서비스를 연결하는 표준 프로토콜
+  - [프로젝트 메모리](./Claude/프로젝트메모리.md) - CLAUDE.md와 자동 메모리로 규칙과 교훈을 남기는 방법
+  - [여러 세션으로 작업하기](./Claude/여러세션으로작업하기.md) - 한 프로젝트에서 세션을 여러 개 켜고 작업하는 방법론과 장단점
+
 ## 기여 방법
 
 이 저장소에 새로운 내용을 추가하거나 오류를 수정하고 싶다면:
