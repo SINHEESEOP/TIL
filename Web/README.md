@@ -21,6 +21,7 @@
 - [URI와 웹 브라우저 요청 흐름](./network/uri_and_web_request_flow.md) - URI 구조와 웹 요청 처리 과정
 - [Stateful, Stateless 그리고 비연결성](./network/stateful_stateless.md) - 상태 관리와 연결 특성
 - [HTTP 메서드](./network/http_methods.md) - GET, POST, PUT, PATCH, DELETE 등 HTTP 메서드 활용
+- [멱등성과 안전성](./network/idempotency_and_safety.md) - 멱등성(Idempotency)과 그보다 더 엄격한 상위 개념인 안전성(Safety)
 
 ## 🔍 Learning Goals
 1. 웹 개발의 기본 개념과 아키텍처 이해

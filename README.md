@@ -129,6 +129,7 @@
     - [URIAndWebRequestFlow](./Web/network/uri_and_web_request_flow.md) - URI, 웹 브라우저 요청 흐름, 클라이언트 서버 구조
     - [StatefulStateless](./Web/network/stateful_stateless.md) - Stateful, Stateless 그리고 비연결성
     - [HTTPMethods](./Web/network/http_methods.md) - HTTP 메서드
+    - [IdempotencyAndSafety](./Web/network/idempotency_and_safety.md) - 멱등성과 그보다 더 엄격한 상위 개념인 안전성(Safety)
 
 <!-- ### English
 - [EnglishStudy](./English/README.md) - 개발자를 위한 영어 공부
