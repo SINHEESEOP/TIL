@@ -1,17 +1,17 @@
-# Lombok 완벽 가이드 🦄
+# Lombok 완벽 가이드
 
-## 1. Lombok이란? 🧩
+## 1. Lombok이란?
 
 Lombok은 Java의 반복적인 코드(보일러플레이트 코드)를 줄여주는 라이브러리입니다. 어노테이션을 기반으로 코드 생성을 자동화하여 개발자가 비즈니스 로직에 더 집중할 수 있게 도와줍니다.
 
-### 1.1 주요 특징 ✨
+### 1.1 주요 특징
 
 - **코드 간소화**: getter, setter, constructor 등을 자동 생성
 - **가독성 향상**: 핵심 비즈니스 로직을 더 명확하게 볼 수 있음
 - **오류 감소**: 수동으로 작성하는 반복적인 코드의 실수 방지
 - **유지보수 용이성**: 클래스의 필드 추가/변경 시 자동 반영
 
-### 1.2 작동 원리 🔄
+### 1.2 작동 원리
 
 Lombok은 Java 컴파일 과정에 개입하는 **어노테이션 프로세서**로 동작합니다:
 
@@ -26,7 +26,7 @@ graph LR
     C --> D[완성된 .class 파일]
 ```
 
-## 2. Lombok 설정하기 🛠️
+## 2. Lombok 설정하기
 
 ### 2.1 Maven 프로젝트
 
@@ -54,7 +54,7 @@ dependencies {
 }
 ```
 
-### 2.3 IDE 설정 🔧
+### 2.3 IDE 설정
 
 #### IntelliJ IDEA
 - Lombok 플러그인 설치 (최신 버전은 기본 내장)
@@ -64,7 +64,7 @@ dependencies {
 - lombok.jar 다운로드 후 실행하여 Eclipse에 설치
 - eclipse.ini 파일에 `-javaagent:/path/to/lombok.jar` 추가
 
-## 3. 필수 Lombok 어노테이션 📝
+## 3. 필수 Lombok 어노테이션
 
 ### 3.1 필드 레벨 어노테이션
 
@@ -152,7 +152,7 @@ public class User {
 }
 ```
 
-## 4. 고급 Lombok 기능 🚀
+## 4. 고급 Lombok 기능
 
 ### 4.1 빌더 패턴 (`@Builder`)
 
@@ -220,7 +220,7 @@ public String readFirstLine(String path) {
 }
 ```
 
-## 5. Spring과 Lombok 함께 사용하기 💼
+## 5. Spring과 Lombok 함께 사용하기
 
 ### 5.1 엔티티 클래스
 
@@ -283,7 +283,7 @@ public class ProductService {
 }
 ```
 
-## 6. Lombok 주의사항 및 모범 사례 ⚠️
+## 6. Lombok 주의사항 및 모범 사례
 
 ### 6.1 주의사항
 
@@ -359,7 +359,7 @@ public class CustomerService {
 }
 ```
 
-## 7. Lombok 디버깅 및 문제 해결 🔍
+## 7. Lombok 디버깅 및 문제 해결
 
 ### 7.1 디버깅 팁
 
@@ -391,7 +391,7 @@ lombok.nonNull.exceptionType = IllegalArgumentException
    - 원인: `@NonNull` 어노테이션이 없는 필드
    - 해결: 필요한 필드에 `@NonNull` 추가
 
-## 8. 실전 예제: Spring Boot 애플리케이션 💻
+## 8. 실전 예제: Spring Boot 애플리케이션
 
 ### 8.1 완전한 Spring Boot 엔티티 예제
 
@@ -515,7 +515,7 @@ public class ProductService {
 }
 ```
 
-## 9. 결론 및 추가 자료 📚
+## 9. 결론 및 추가 자료
 
 ### 9.1 Lombok 사용의 장단점
 

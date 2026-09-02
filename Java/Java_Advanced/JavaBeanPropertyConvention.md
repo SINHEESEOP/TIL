@@ -1,12 +1,12 @@
 # 자바빈(JavaBean) 프로퍼티 규약
 
-## 자바빈이란? 🧩
+## 자바빈이란?
 
 자바빈(JavaBean)은 자바 플랫폼에서 재사용 가능한 소프트웨어 컴포넌트를 의미합니다. 자바빈은 특정 형태의 디자인 패턴을 따르는 자바 클래스로, 데이터 표현을 목적으로 합니다.
 
-## 자바빈 프로퍼티 규약의 핵심 요소 📝
+## 자바빈 프로퍼티 규약의 핵심 요소
 
-### 1. 기본 생성자 (Default Constructor) 👷‍♂️
+### 1. 기본 생성자 (Default Constructor)
 
 ```java
 public class Person {
@@ -17,7 +17,7 @@ public class Person {
 }
 ```
 
-### 2. 프로퍼티 (Properties) 🏗️
+### 2. 프로퍼티 (Properties)
 
 자바빈의 프로퍼티는 private 필드와 public getter/setter 메서드로 구성됩니다.
 
@@ -53,7 +53,7 @@ public class Person {
 }
 ```
 
-### 3. 직렬화 (Serialization) 📦
+### 3. 직렬화 (Serialization)
 
 자바빈은 Serializable 인터페이스를 구현해야 합니다.
 
@@ -71,7 +71,7 @@ public class Person implements Serializable {
 }
 ```
 
-## 프로퍼티 타입 🔄
+## 프로퍼티 타입
 
 ### 1. 단순 프로퍼티 (Simple Properties)
 
@@ -127,14 +127,14 @@ public class Library {
 }
 ```
 
-## 자바빈 프로퍼티 규약의 이점 🌟
+## 자바빈 프로퍼티 규약의 이점
 
 1. **캡슐화(Encapsulation)** - 필드를 private으로 선언하고 getter/setter를 통해 접근함으로써 데이터 은닉
 2. **표준화(Standardization)** - 일관된 방식으로 객체의 속성에 접근
 3. **도구 지원(Tool Support)** - IDE와 같은 도구에서 자동 인식하여 코드 자동 완성 등 지원
 4. **프레임워크 호환성(Framework Compatibility)** - Spring, Hibernate 등의 프레임워크와의 원활한 통합
 
-## 실제 활용 예시 💻
+## 실제 활용 예시
 
 ### Spring 프레임워크에서의 활용
 
@@ -181,6 +181,6 @@ public class Product implements Serializable {
 
 Spring과 같은 프레임워크는 위의 자바빈 규약을 따르는 클래스를 활용하여 의존성 주입, ORM 매핑 등을 수행합니다.
 
-## 결론 📌
+## 결론
 
 자바빈 프로퍼티 규약은 자바 생태계에서 객체 데이터를 표현하고 조작하는 표준 방식입니다. 이 규약을 따름으로써 다양한 프레임워크와의 호환성을 확보하고, 객체의 상태를 안전하게 관리할 수 있습니다. 

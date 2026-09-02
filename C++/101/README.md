@@ -1,8 +1,8 @@
-# 🔧 C++ 101
+# C++ 101
 
 A section covering the fundamentals and core concepts of the C++ programming language.
 
-## 📚 Contents
+## Contents
 
 ### [Overview and History](cpp_overview_and_history.md)
 The evolution and key features of C++.

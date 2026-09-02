@@ -1,8 +1,8 @@
-# 🚀 스프링 MVC - 요청 파라미터 처리
+# 스프링 MVC - 요청 파라미터 처리
 
-## 1️⃣ 파라미터 바인딩 개요
+## 1. 파라미터 바인딩 개요
 
-### 파라미터 바인딩 어노테이션 비교 📋
+### 파라미터 바인딩 어노테이션 비교
 
 | 어노테이션 | 데이터 출처 | 바인딩 방식 | 주요 용도 |
 |-----------|------------|------------|---------|
@@ -11,9 +11,9 @@
 | `@RequestParam` | 쿼리 파라미터, 폼 데이터 | 타입 변환기 | 단일 파라미터 처리 |
 | `@PathVariable` | URL 경로 변수 | 타입 변환기 | 경로 기반 데이터 처리 |
 
-## 2️⃣ 요청 바디 처리 - @RequestBody
+## 2. 요청 바디 처리 - @RequestBody
 
-### JSON 요청 바디 처리 📊
+### JSON 요청 바디 처리
 
 ```java
 @Slf4j
@@ -63,7 +63,7 @@ public class RequestBodyController {
 }
 ```
 
-### @RequestBody 특징 🔍
+### @RequestBody 특징
 
 - HTTP 요청 바디(body)의 내용을 객체로 변환
 - **JSON → 객체** 변환에 HttpMessageConverter 사용 (`MappingJackson2HttpMessageConverter` 등)
@@ -74,9 +74,9 @@ public class RequestBodyController {
     - 당연하지만, 미적용 시 RequestParam -> modelAttribute 순으로 인식하기 때문이며 대부분 body 부분은 생략 불가.
     - 해당 어노테이션은 HTTP 메세지 컨버터가 처리함. 
 
-## 3️⃣ 모델 파라미터 처리 - @ModelAttribute
+## 3. 모델 파라미터 처리 - @ModelAttribute
 
-### @ModelAttribute 사용 예시 🏷️
+### @ModelAttribute 사용 예시
 
 ```java
 @Controller
@@ -161,7 +161,7 @@ public class ModelAttributeController {
 }
 ```
 
-### @ModelAttribute 특징 🔍
+### @ModelAttribute 특징
 
 - 요청 파라미터(쿼리 스트링, 폼 데이터)를 객체에 바인딩
 - 별도 어노테이션 없이 **객체 타입 파라미터**가 있으면 @ModelAttribute가 자동 적용
@@ -172,9 +172,9 @@ public class ModelAttributeController {
 - 자동으로 **Model에 추가됨** (뷰에서 바로 접근 가능)
 - **타입 변환 오류**가 발생하면 `BindingResult`로 처리 가능
 
-## 4️⃣ 단순 파라미터 처리 - @RequestParam
+## 4. 단순 파라미터 처리 - @RequestParam
 
-### 기본 사용법 📝
+### 기본 사용법
 
 ```java
 @RestController
@@ -254,7 +254,7 @@ public class RequestParamController {
 }
 ```
 
-### @RequestParam 고급 기능 📊
+### @RequestParam 고급 기능
 
 - **필수값 설정**: `required=true` (기본값) → 파라미터 없으면 400 오류
 - **기본값 설정**: `defaultValue="값"` → 파라미터 없으면 기본값 사용
@@ -264,9 +264,9 @@ public class RequestParamController {
   - 예: `?ids=1&ids=2&ids=3` → `List<Integer> ids`로 처리 가능
 - **MultiValueMap**: 파라미터별로 여러 값 처리
 
-## 5️⃣ URL 경로 변수 처리 - @PathVariable
+## 5. URL 경로 변수 처리 - @PathVariable
 
-### 기본 사용법 🛣️
+### 기본 사용법
 
 ```java
 @RestController
@@ -316,7 +316,7 @@ public class PathVariableController {
 }
 ```
 
-### @PathVariable 특징 🔍
+### @PathVariable 특징
 
 - URL 경로의 일부를 변수로 사용
 - RESTful API 설계에 필수적인 요소
@@ -325,9 +325,9 @@ public class PathVariableController {
   - 경로 변수명과 메서드 파라미터명이 일치해야 함 (다르면 명시적으로 지정)
   - 타입 변환이 불가능한 경우 400 오류 발생
 
-## 6️⃣ 쿠키 값 처리 - @CookieValue
+## 6. 쿠키 값 처리 - @CookieValue
 
-### 쿠키 처리 예시 🍪
+### 쿠키 처리 예시
 
 ```java
 @RestController
@@ -397,7 +397,7 @@ public class CookieController {
 }
 ```
 
-### @CookieValue 특징 🔍
+### @CookieValue 특징
 
 - HTTP 요청의 쿠키 값을 파라미터로 받음
 - 필수값 설정: `required=true` (기본값)
@@ -405,9 +405,9 @@ public class CookieController {
 - 쿠키는 문자열이지만 기본 타입 변환도 지원 (int, long 등)
 - `Cookie` 객체로 직접 받을 수도 있음
 
-## 7️⃣ 헤더 값 처리 - @RequestHeader
+## 7. 헤더 값 처리 - @RequestHeader
 
-### 헤더 처리 예시 📨
+### 헤더 처리 예시
 
 ```java
 @RestController
@@ -475,7 +475,7 @@ public class HeaderController {
 }
 ```
 
-### @RequestHeader 특징 🔍
+### @RequestHeader 특징
 
 - HTTP 요청 헤더 값을 파라미터로 받음
 - 필수값 설정: `required=true` (기본값)

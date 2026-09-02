@@ -1,4 +1,4 @@
-# 시공간 복잡도 (Time & Space Complexity) ⏱️💾
+# 시공간 복잡도 (Time & Space Complexity)
 
 ## 시간 복잡도 (Time Complexity)
 - 알고리즘이 문제를 해결하는 데 걸리는 시간을 입력 크기의 함수로 표현

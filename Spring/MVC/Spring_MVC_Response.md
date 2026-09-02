@@ -1,8 +1,8 @@
-# 🚀 스프링 MVC - HTTP 응답 처리와 메시지 컨버터
+# 스프링 MVC - HTTP 응답 처리와 메시지 컨버터
 
-## 1️⃣ HTTP 응답 - 정적 리소스와 뷰 템플릿
+## 1. HTTP 응답 - 정적 리소스와 뷰 템플릿
 
-### 정적 리소스 제공 📁
+### 정적 리소스 제공
 
 스프링 부트는 다음 디렉토리에 위치한 정적 리소스를 자동으로 제공합니다:
 - `/static`
@@ -41,7 +41,7 @@ public class WebConfig implements WebMvcConfigurer {
 }
 ```
 
-### 뷰 템플릿 활용 🎨
+### 뷰 템플릿 활용
 
 스프링 부트는 기본적으로 `/resources/templates/` 경로에서 템플릿을 찾습니다.
 
@@ -102,9 +102,9 @@ public class ViewController {
 }
 ```
 
-## 2️⃣ HTTP 응답 - HTTP API와 메시지 바디
+## 2. HTTP 응답 - HTTP API와 메시지 바디
 
-### @ResponseBody 활용 📤
+### @ResponseBody 활용
 
 ```java
 @Controller
@@ -181,7 +181,7 @@ static class HelloData {
 }
 ```
 
-### @RestController 활용 🔄
+### @RestController 활용
 
 ```java
 @RestController  // @Controller + @ResponseBody
@@ -222,15 +222,15 @@ public class ApiController {
 }
 ```
 
-## 3️⃣ HTTP 메시지 컨버터
+## 3. HTTP 메시지 컨버터
 
-### 메시지 컨버터란? 🔄
+### 메시지 컨버터란?
 
 - **개념**: HTTP 요청/응답의 바디를 객체로 변환하거나, 객체를 HTTP 바디로 변환해주는 컴포넌트
 - **적용 대상**: `@RequestBody`, `@ResponseBody`, `HttpEntity`, `ResponseEntity`
 - **Spring MVC**: 기본적으로 다양한 메시지 컨버터를 제공
 
-### 주요 메시지 컨버터 종류 📋
+### 주요 메시지 컨버터 종류
 
 ```
 [ HTTP 요청 ] -> [ 컨버터 ] -> [ 자바 객체 ]
@@ -244,7 +244,7 @@ public class ApiController {
 | `ByteArrayHttpMessageConverter` | 바이트 배열 처리 | `application/octet-stream` | `byte[]` |
 | `FormHttpMessageConverter` | 폼 데이터 처리 | `application/x-www-form-urlencoded` | `MultiValueMap` |
 
-### 컨버터 선택 과정 🔎
+### 컨버터 선택 과정
 
 **HTTP 요청** (`@RequestBody`, `HttpEntity`)
 1. 요청 헤더의 `Content-Type` 미디어 타입 확인
@@ -258,7 +258,7 @@ public class ApiController {
 3. 요청의 `Accept` 헤더 확인 (클라이언트가 받기 원하는 미디어 타입)
 4. 컨버터의 `write()` 메서드로 응답 바디 생성
 
-### 메시지 컨버터 사용 예시 💻
+### 메시지 컨버터 사용 예시
 
 ```java
 @RestController
@@ -314,7 +314,7 @@ public class ConverterDemoController {
 }
 ```
 
-### 메시지 컨버터 등록과 설정 ⚙️
+### 메시지 컨버터 등록과 설정
 
 ```java
 @Configuration
@@ -349,9 +349,9 @@ public class WebConfig implements WebMvcConfigurer {
 }
 ```
 
-## 4️⃣ 요청 매핑 핸들러 어댑터 구조
+## 4. 요청 매핑 핸들러 어댑터 구조
 
-### 스프링 MVC 요청 처리 구조 🏗️
+### 스프링 MVC 요청 처리 구조
 
 다음은 스프링 MVC가 요청을 처리하는 구조입니다:
 
@@ -361,13 +361,13 @@ HTTP 요청 → DispatcherServlet → HandlerMapping → 핸들러(컨트롤러)
 HTTP 응답 ← DispatcherServlet ← 핸들러 어댑터 ← 핸들러(컨트롤러) 실행
 ```
 
-### 핸들러 어댑터의 역할 🔄
+### 핸들러 어댑터의 역할
 
 - **목적**: 다양한 형태의 핸들러(컨트롤러)를 실행하기 위한 어댑터 패턴 적용
 - **기능**: HTTP 요청 파라미터, 헤더, 바디 처리 및 변환
 - **구현**: 다양한 종류의 핸들러 어댑터가 있음
 
-### RequestMappingHandlerAdapter의 처리 흐름 🛠️
+### RequestMappingHandlerAdapter의 처리 흐름
 
 ```
 HTTP 요청 → ArgumentResolver → 컨트롤러
@@ -393,7 +393,7 @@ HTTP 응답 ← ReturnValueHandler ← 컨트롤러
   2. 적합한 ReturnValueHandler 선택
   3. HTTP 응답 생성
 
-### 핵심 인터페이스와 구현체 🧩
+### 핵심 인터페이스와 구현체
 
 ```java
 // HandlerMethodArgumentResolver 인터페이스 (ArgumentResolver)
@@ -421,7 +421,7 @@ public interface HandlerMethodReturnValueHandler {
 }
 ```
 
-### 사용자 정의 ArgumentResolver 예시 🔧
+### 사용자 정의 ArgumentResolver 예시
 
 ```java
 // 커스텀 어노테이션
@@ -479,9 +479,9 @@ public class UserController {
 }
 ```
 
-## 5️⃣ 응답과 요청 처리의 종합적 이해
+## 5. 응답과 요청 처리의 종합적 이해
 
-### 응답 형식에 따른 구분 요약 📋
+### 응답 형식에 따른 구분 요약
 
 | 응답 형식 | 사용 방법 | 특징 |
 |----------|----------|------|
@@ -489,7 +489,7 @@ public class UserController {
 | **뷰 템플릿** | `return "view_name"` | 동적 HTML 렌더링 (Thymeleaf, JSP 등) |
 | **HTTP API** | `@ResponseBody`, `@RestController` | JSON 등의 데이터 직접 응답 |
 
-### 요청 파라미터 처리 요약 📋
+### 요청 파라미터 처리 요약
 
 | 요청 데이터 유형 | 처리 방법 | 어노테이션 |
 |---------------|----------|----------|
@@ -498,7 +498,7 @@ public class UserController {
 | **폼 데이터** | `@RequestParam`, `@ModelAttribute` | POST form-data |
 | **HTTP 메시지 바디** | `@RequestBody` | JSON, XML 등의 바디 데이터 |
 
-### HTTP 요청/응답의 데이터 구성 요소 🔍
+### HTTP 요청/응답의 데이터 구성 요소
 
 #### HTTP 요청 3요소
 - **Headers**: 요청에 대한 메타 정보 (Content-Type, Accept 등)
@@ -510,7 +510,7 @@ public class UserController {
 - **Headers**: 응답에 대한 메타 정보 (Content-Type, Cache-Control 등)
 - **Body**: 실제 응답 데이터 (HTML, JSON, 이미지 등)
 
-### @PathVariable과 메시지 컨버터의 관계 ⚙️
+### @PathVariable과 메시지 컨버터의 관계
 
 - **@PathVariable**: URI 경로에서 값을 추출하는 단순 문자열 바인딩 메커니즘
   - 예: `/users/{id}` → `@PathVariable Long id`
@@ -521,7 +521,7 @@ public class UserController {
   - `@RequestBody`, `@ResponseBody`, `HttpEntity`, `ResponseEntity`에서만 작동
   - 전체 HTTP 메시지 바디를 객체로 또는 객체에서 메시지 바디로 변환
 
-### produces, consumes, Accept, Content-Type 관계 🔄
+### produces, consumes, Accept, Content-Type 관계
 
 | 항목 | 설명 | HTTP 관련 요소 |
 |-----|------|--------------|
@@ -535,17 +535,17 @@ public class UserController {
 )
 ```
 
-### 메시지 컨버터 작동 어노테이션 정리 📋
+### 메시지 컨버터 작동 어노테이션 정리
 
 | 어노테이션 | 메시지 컨버터 작동 여부 |
 |----------|---------------------|
-| **@RequestBody** | ✅ 작동 (요청 바디 → 객체) |
-| **@ResponseBody** | ✅ 작동 (객체 → 응답 바디) |
-| **@PathVariable** | ❌ 비작동 (단순 문자열 바인딩) |
-| **@RequestParam** | ❌ 비작동 (단순 문자열 바인딩) |
-| **@ModelAttribute** | ❌ 비작동 (파라미터 바인딩 후 객체 생성) |
+| **@RequestBody** | 작동 (요청 바디 → 객체) |
+| **@ResponseBody** | 작동 (객체 → 응답 바디) |
+| **@PathVariable** | 비작동 (단순 문자열 바인딩) |
+| **@RequestParam** | 비작동 (단순 문자열 바인딩) |
+| **@ModelAttribute** | 비작동 (파라미터 바인딩 후 객체 생성) |
 
-### 406 Not Acceptable 발생 원인 ⚠️
+### 406 Not Acceptable 발생 원인
 
 - **발생 상황**: 클라이언트의 Accept 헤더와 서버의 produces 속성이 호환되지 않을 때
 - **예시**: 
@@ -553,7 +553,7 @@ public class UserController {
   - 서버: `@GetMapping(produces = "application/json")`
   - 결과: 서버가 클라이언트가 원하는 형식을 제공할 수 없어 406 오류 발생
 
-### Spring 컨트롤러의 응답 방식별 리턴 타입 🔄
+### Spring 컨트롤러의 응답 방식별 리턴 타입
 
 | 리턴 타입 | 의미 | 예시 |
 |---------|-----|------|
@@ -565,7 +565,7 @@ public class UserController {
 | **@ResponseBody** | 메시지 바디 응답 | `return userDto;` |
 | **ResponseEntity** | 상태코드/헤더/바디 제어 | `return ResponseEntity.ok().body(data);` |
 
-### 통합 예시: 완전한 REST API 컨트롤러 📚
+### 통합 예시: 완전한 REST API 컨트롤러
 
 ```java
 @RestController
@@ -674,9 +674,9 @@ public class BookApiController {
 }
 ```
 
-## HttpEntity와 ResponseEntity 🔄
+## HttpEntity와 ResponseEntity
 
-### HttpEntity 계층 구조 📝
+### HttpEntity 계층 구조
 
 스프링의 HTTP 메시지 처리에서 핵심이 되는 클래스 계층 구조는 다음과 같습니다:
 
@@ -686,7 +686,7 @@ HttpEntity
   └── ResponseEntity
 ```
 
-### HttpEntity 기본 개념 📌
+### HttpEntity 기본 개념
 
 - **정의**: HTTP 요청이나 응답의 **헤더와 바디**를 함께 표현하는 클래스
 - **용도**: HTTP 메시지의 완전한 표현을 제공하기 위한 추상화
@@ -701,7 +701,7 @@ HttpEntity<Object> headersOnly = new HttpEntity<>(headers);
 HttpEntity<String> bodyOnly = new HttpEntity<>("Hello World");
 ```
 
-### ResponseEntity 상세 활용법 🛠️
+### ResponseEntity 상세 활용법
 
 ResponseEntity는 HttpEntity를 상속하며, HTTP 응답을 완전히 제어할 수 있는 다양한 기능을 제공합니다.
 
@@ -823,7 +823,7 @@ public ResponseEntity<List<UserDto>> getUsers(
 }
 ```
 
-### HttpEntity와 ResponseEntity의 관계 및 차이점 🔍
+### HttpEntity와 ResponseEntity의 관계 및 차이점
 
 | 특성 | HttpEntity | ResponseEntity |
 |------|-----------|---------------|
@@ -852,7 +852,7 @@ public ResponseEntity<List<UserDto>> getUsers(
                       .body(responseDto);
    ```
 
-### 실무 적용 시 권장 패턴 🌟
+### 실무 적용 시 권장 패턴
 
 1. **요청 처리**: `@RequestBody`나 `HttpEntity`를 사용하여 요청 바디와 헤더에 접근
    ```java

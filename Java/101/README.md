@@ -1,8 +1,8 @@
-# ☕ Java 101
+# Java 101
 
 A section covering the fundamentals of the Java programming language.
 
-## 📚 Contents
+## Contents
 
 ### [Java Basics](java_basics.md)
 Basic concepts and syntax of Java programming.

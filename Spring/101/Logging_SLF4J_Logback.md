@@ -1,9 +1,9 @@
-# 🔍 SLF4J와 Logback: 자바 로깅의 표준
+# SLF4J와 Logback: 자바 로깅의 표준
 
-## 1️⃣ 자바 로깅 시스템 개요
+## 1. 자바 로깅 시스템 개요
 
 ### SLF4J(Simple Logging Facade for Java) 이해하기
-- **SLF4J란?** 🌉
+- **SLF4J란?**
   - 다양한 로깅 구현체를 위한 **추상화 인터페이스(Facade)**
   - 로깅 라이브러리들의 **공통 API**를 제공하는 브릿지 역할
   - 애플리케이션 코드는 SLF4J API만 사용하고, 실제 로깅 구현체는 필요에 따라 교체 가능
@@ -13,7 +13,7 @@
   - SLF4J 2.x: 자바 8 이상 지원, 새로운 기능 추가
 
 ### Logback: SLF4J의 대표적 구현체
-- **Logback이란?** 📊
+- **Logback이란?**
   - SLF4J의 **기본 구현체**로 설계됨
   - Log4j의 창시자(Ceki Gülcü)가 개발한 더 발전된 로깅 프레임워크
   - Spring Boot의 **기본 로깅 구현체**로 채택됨
@@ -25,7 +25,7 @@
 | **Log4j2** | 비동기 로깅, 멀티스레드 환경 최적화 | 어댑터 필요 |
 | **JUL** (java.util.logging) | JDK 내장, 기본 기능만 제공 | 어댑터 필요 |
 
-## 2️⃣ SLF4J + Logback 설정 방법
+## 2. SLF4J + Logback 설정 방법
 
 ### 의존성 추가
 #### Maven
@@ -86,7 +86,7 @@ implementation 'ch.qos.logback:logback-classic:1.2.11'
 </configuration>
 ```
 
-## 3️⃣ SLF4J 사용 방법
+## 3. SLF4J 사용 방법
 
 ### 기본 사용법
 ```java
@@ -135,15 +135,15 @@ public class UserService {
 
 상위 레벨이 설정되면 하위 레벨은 출력되지 않음 (INFO 설정 시 TRACE, DEBUG는 출력되지 않음)
 
-## 4️⃣ SLF4J의 핵심 장점
+## 4. SLF4J의 핵심 장점
 
 ### 1. 파라미터화된 로깅 (성능 최적화)
-#### 비효율적인 방식 (❌)
+#### 비효율적인 방식
 ```java
 logger.debug("사용자 정보: " + user.getName() + ", 나이: " + user.getAge());
 ```
 
-#### 효율적인 방식 (✅)
+#### 효율적인 방식
 ```java
 logger.debug("사용자 정보: {}, 나이: {}", user.getName(), user.getAge());
 ```
@@ -160,7 +160,7 @@ logger.debug("사용자 정보: {}, 나이: {}", user.getName(), user.getAge());
 - 다양한 로깅 라이브러리를 SLF4J로 통합 가능
 - 여러 라이브러리가 각자 다른 로깅 시스템을 사용해도 하나로 통합
 
-## 5️⃣ Spring Boot에서의 SLF4J와 Logback
+## 5. Spring Boot에서의 SLF4J와 Logback
 
 ### 기본 사용법
 Spring Boot는 기본적으로 SLF4J + Logback을 사용하므로 별도 설정 없이 바로 사용 가능:
@@ -204,7 +204,7 @@ logging:
     name: logs/application.log
 ```
 
-## 6️⃣ 로깅 모범 사례
+## 6. 로깅 모범 사례
 
 ### 로깅 시 고려사항
 1. **적절한 로그 레벨 사용**
@@ -232,7 +232,7 @@ logging:
    logger.info("사용자 로그인: 이메일={}, 비밀번호=*****", email);
    ```
 
-## 7️⃣ 결론
+## 7. 결론
 
 ### SLF4J + Logback을 선택하는 이유
 - **편리한 API**: 파라미터화된 로깅, 다양한 헬퍼 메서드

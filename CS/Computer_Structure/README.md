@@ -13,10 +13,10 @@
 ### 명령어와 실행 과정
 - [어셈블리 명령어의 구조](./StructureOfassembly_instructions.md) - 어셈블리 명령어 구조 분석
 - [소스코드와 명령어](./SourceCode_and_Command.md) - 소스코드의 컴파일 과정과 명령어 실행
-- [명령어 병렬 처리 기법](./instruction_level_parallelism.md) - 파이프라이닝, 슈퍼스칼라, 비순차적 명령어 처리 📈
+- [명령어 병렬 처리 기법](./instruction_level_parallelism.md) - 파이프라이닝, 슈퍼스칼라, 비순차적 명령어 처리
 - [컴퓨터 구조 개요](./TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
 
-## 🔍 학습 목표
+## 학습 목표
 - 컴퓨터 아키텍처와 조직 이해
 - CPU 동작 원리와 명령어 사이클 분석
 - 메모리 계층 구조와 캐시 시스템 이해

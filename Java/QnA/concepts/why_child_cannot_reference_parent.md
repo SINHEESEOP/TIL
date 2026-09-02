@@ -17,8 +17,8 @@
 - 즉,
     
     ```java
-    Parent p = new Child();  // ✅ 가능 (업캐스팅, Upcasting)
-    Child c = new Parent();  // ❌ 불가능 (다운캐스팅 오류)
+    Parent p = new Child(); // 가능 (업캐스팅, Upcasting)
+    Child c = new Parent(); // 불가능 (다운캐스팅 오류)
     
     ```
     
@@ -47,7 +47,7 @@ class Child extends Parent {
 
 public class Main {
     public static void main(String[] args) {
-        Child c = new Parent();  // ❌ 컴파일 오류
+        Child c = new Parent(); // 컴파일 오류
         c.childMethod();  // 자식 타입에 부모 객체를 담았으므로, childMethod() 호출 불가능
     }
 }
@@ -78,8 +78,8 @@ class Child extends Parent {
 
 public class Main {
     public static void main(String[] args) {
-        Child c = (Child) new Parent(); // ⚠️ 강제 캐스팅 (실제로는 부모 객체)
-        c.childMethod(); // ❌ 런타임 오류 발생
+        Child c = (Child) new Parent(); // 강제 캐스팅 (실제로는 부모 객체)
+        c.childMethod(); // 런타임 오류 발생
     }
 }
 
@@ -100,4 +100,4 @@ public class Main {
 
 **즉, 컴파일 오류가 발생하는 것이 문제가 아니라, 이를 허용하면 더 큰 문제(런타임 오류)가 발생하기 때문**에 Java에서 이를 엄격히 금지하는 것입니다.
 
-사용자의 의견처럼 **타입 안정성이 근본적인 원인**이며, 이는 **코드의 안전성을 보장하기 위한 언어 설계적 결정**입니다. 🚀
+사용자의 의견처럼 **타입 안정성이 근본적인 원인**이며, 이는 **코드의 안전성을 보장하기 위한 언어 설계적 결정**입니다.

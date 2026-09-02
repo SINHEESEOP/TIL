@@ -1,8 +1,8 @@
-# 🌱 Spring Framework
+# Spring Framework
 
 Spring Framework와 Spring Boot에 대한 학습 내용을 정리한 공간입니다.
 
-## 📚 Contents
+## Contents
 
 ### Spring 101
 - [Spring 101](./101/README.md)
@@ -26,11 +26,11 @@ Spring Framework와 Spring Boot에 대한 학습 내용을 정리한 공간입�
   - [Field Injection and Test Issues](./Core/Injection/FieldInjectionAndTestIssues.md) - @Autowired 필드 주입의 문제점과 테스트에서의 활용 방안
 
 ### Spring MVC
-- [Spring MVC 가이드](./MVC/README.md) 🚀
+- [Spring MVC 가이드](./MVC/README.md)
   - [Spring MVC Evolution](./MVC/Spring_MVC_Evolution.md) - 스프링 MVC의 발전 역사
   - [Request Mapping](./MVC/Spring_MVC_Request_Mapping.md) - 요청 매핑
   - [Request Parameter](./MVC/Spring_MVC_Request_Parameter.md) - 요청 파라미터 처리  
-  - [Filter and Interceptor](./MVC/spring_filter_and_interceptor.md) - 필터와 인터셉터 🚧
+  - [Filter and Interceptor](./MVC/spring_filter_and_interceptor.md) - 필터와 인터셉터
   - [Response](./MVC/Spring_MVC_Response.md) - HTTP 응답 처리
 
 ### Spring 주요 모듈
@@ -38,13 +38,13 @@ Spring Framework와 Spring Boot에 대한 학습 내용을 정리한 공간입�
 - **Spring Security**: 보안 기능 제공
 - **Spring Boot**: 스프링 기반 애플리케이션의 빠른 개발 지원
 
-## 🔍 최근 업데이트 내용
+## 최근 업데이트 내용
 - Spring MVC 처리 과정 상세 분석
 - 빈 스코프와 Provider 기능 설명
 - SLF4J와 Logback을 활용한 로깅 전략
 - SOLID 원칙의 실제 적용 방법
 
-## 📖 Resources
+## Resources
 - [Spring 공식 문서](https://spring.io/docs)
 - [Spring Boot 가이드](https://spring.io/guides)
 - [Spring Framework 레퍼런스](https://docs.spring.io/spring-framework/reference/) 

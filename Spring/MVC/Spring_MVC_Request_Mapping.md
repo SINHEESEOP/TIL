@@ -1,13 +1,13 @@
-# 🚀 스프링 MVC - 요청 매핑과 컨트롤러 패턴
+# 스프링 MVC - 요청 매핑과 컨트롤러 패턴
 
-## 1️⃣ 요청 매핑 기본
+## 1. 요청 매핑 기본
 
-### 요청 매핑이란? 🎯
+### 요청 매핑이란?
 - **정의**: 클라이언트 요청 URL을 애플리케이션의 특정 메서드에 매핑하는 과정
 - **목적**: HTTP 요청이 들어왔을 때 어떤 컨트롤러가 처리할지 결정
 - **핵심**: `@RequestMapping` 어노테이션과 그 파생 어노테이션들을 사용
 
-### 기본 매핑 어노테이션 📌
+### 기본 매핑 어노테이션
 
 ```java
 // 기본 형태
@@ -30,7 +30,7 @@ public String helloGet() {
 @PatchMapping("/hello")
 ```
 
-### 매핑 조건 다양화 🔀
+### 매핑 조건 다양화
 
 ```java
 // URL 경로 변수
@@ -71,9 +71,9 @@ public String getUsersJson() {
 }
 ```
 
-## 2️⃣ HTTP 요청 매핑 패턴
+## 2. HTTP 요청 매핑 패턴
 
-### URL 패턴 매칭 방식 🧩
+### URL 패턴 매칭 방식
 
 ```java
 // 1. 정확한 경로 매칭
@@ -92,7 +92,7 @@ public String getUsersJson() {
 @GetMapping("/files/*.png")  // /files/image.png 등
 ```
 
-### 요청 매핑 우선순위 📊
+### 요청 매핑 우선순위
 
 1. **정확한 경로 매칭**이 가장 높은 우선순위
 2. **경로 변수**가 다음 우선순위
@@ -104,9 +104,9 @@ public String getUsersJson() {
 @GetMapping("/users/*")       // 우선순위 3: 와일드카드
 ```
 
-## 3️⃣ 요청 매핑 실제 API 예시
+## 3. 요청 매핑 실제 API 예시
 
-### RESTful 리소스 설계 예시 🌐
+### RESTful 리소스 설계 예시
 
 ```java
 @RestController
@@ -161,7 +161,7 @@ public class ProductController {
 }
 ```
 
-### 계층형 리소스 관계 매핑 예시 📊
+### 계층형 리소스 관계 매핑 예시
 
 ```java
 @RestController
@@ -202,9 +202,9 @@ public class OrderController {
 }
 ```
 
-## 4️⃣ 컨트롤러 구현 패턴
+## 4. 컨트롤러 구현 패턴
 
-### 전통적인 @Controller 패턴 📝
+### 전통적인 @Controller 패턴
 
 ```java
 @Controller
@@ -231,7 +231,7 @@ public class HomeController {
 }
 ```
 
-### @RestController 패턴 📊
+### @RestController 패턴
 
 ```java
 @RestController  // @Controller + @ResponseBody 결합
@@ -255,7 +255,7 @@ public class ApiController {
 }
 ```
 
-### 요청/응답 유형별 패턴 📋
+### 요청/응답 유형별 패턴
 
 ```java
 @RestController
@@ -343,9 +343,9 @@ public class PatternDemoController {
 }
 ```
 
-## 5️⃣ 요청 처리 고급 기법
+## 5. 요청 처리 고급 기법
 
-### 핸들러 메서드 인터셉터 🔍
+### 핸들러 메서드 인터셉터
 
 ```java
 @Configuration
@@ -389,7 +389,7 @@ public class LoggingInterceptor implements HandlerInterceptor {
 }
 ```
 
-### URL 경로 커스터마이징 🛣️
+### URL 경로 커스터마이징
 
 ```java
 @Configuration
@@ -433,7 +433,7 @@ public class ApiV2Controller {
 }
 ```
 
-### 예외 처리 @ExceptionHandler 🚨
+### 예외 처리 @ExceptionHandler
 
 ```java
 @RestController
@@ -492,9 +492,9 @@ public class GlobalExceptionHandler {
 }
 ```
 
-## 6️⃣ 원격 API 호출 및 통합 구현
+## 6. 원격 API 호출 및 통합 구현
 
-### RestTemplate 활용 🌐
+### RestTemplate 활용
 
 ```java
 @Service
@@ -539,7 +539,7 @@ public class ProxyController {
 }
 ```
 
-### WebClient 활용 (비동기 API 호출) 🚀
+### WebClient 활용 (비동기 API 호출)
 
 ```java
 @Service

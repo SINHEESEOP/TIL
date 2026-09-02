@@ -1,15 +1,15 @@
-# 🔄 Spring에서의 Model과 Entity 비교
+# Spring에서의 Model과 Entity 비교
 
 Model과 Entity는 이름은 비슷해 보이지만 Spring 애플리케이션에서 서로 다른 목적과 역할을 가집니다. 이 문서에서는 두 개념의 차이점과 관계를 명확히 정리합니다.
 
-## 💡 핵심 요약
+## 핵심 요약
 
 **Model과 Entity의 관계:**
 - MVC(Model-View-Controller) 패턴에서 **Model**은 View, Controller를 제외한 모든 것
 - **Entity**는 Model의 특별한 형태로, 데이터베이스 테이블과 매핑되는 객체
 - 즉, **Entity, DTO, VO, Service 로직** 등이 모두 Model의 일부로 포함됨
 
-## 1. Model이란? 📊
+## 1. Model이란?
 
 **정의**: Model은 **애플리케이션 내 데이터와 비즈니스 로직을 표현**하는 객체입니다.
 
@@ -49,7 +49,7 @@ public class User {
 
 여기서 `isAdult()`는 비즈니스 로직의 일부로, 데이터베이스와 관계없이 애플리케이션에서 사용됩니다.
 
-## 2. Entity란? 📁
+## 2. Entity란?
 
 **정의**: Entity는 **데이터베이스 테이블과 직접적으로 매핑되는 객체**로, 주로 ORM(Object-Relational Mapping) 프레임워크에서 사용됩니다.
 
@@ -95,7 +95,7 @@ public class User {
 
 이 클래스는 데이터베이스의 `users` 테이블과 매핑되며, JPA를 통해 CRUD 작업이 수행됩니다.
 
-## 3. Model과 Entity의 차이점 📋
+## 3. Model과 Entity의 차이점
 
 | **구분** | **Model** | **Entity** |
 |---------|----------|------------|
@@ -106,14 +106,14 @@ public class User {
 | **영속성** | 영속성과 직접 관련 없음 | 영속성 컨텍스트에 의해 관리 |
 | **어노테이션** | 특별한 어노테이션 불필요 | `@Entity`, `@Table`, `@Id` 등 사용 |
 
-## 4. Model과 Entity의 관계 🔄
+## 4. Model과 Entity의 관계
 
 - **Entity는 Model의 한 종류**라고 볼 수 있습니다:
   - Entity는 데이터베이스와 연결된 특수한 형태의 Model
   - 모든 Entity는 Model이지만, 모든 Model이 Entity인 것은 아님
   - DTO, VO도 Model의 일종이지만 Entity와는 다른 목적을 가짐
 
-## 5. 실무적 관점에서의 비유 🚀
+## 5. 실무적 관점에서의 비유
 
 1. **Model**:
    - 애플리케이션의 데이터와 행동을 담는 컨테이너
@@ -125,7 +125,7 @@ public class User {
    - 데이터의 지속성과 관계에 중점을 둔 객체
    - 예: "데이터베이스 테이블의 실제 제품 정보"
 
-## 6. 사용 사례로 이해하기 📱
+## 6. 사용 사례로 이해하기
 
 **Entity 중심 작업:**
 - 데이터베이스에서 정보 조회 및 저장
@@ -138,7 +138,7 @@ public class User {
 - 여러 Entity를 조합하여 복잡한 비즈니스 로직 수행
 - API 응답 데이터 구성
 
-## 7. 결론 ✨
+## 7. 결론
 
 - **Model**은 애플리케이션의 데이터와 비즈니스 로직을 담당하는 광범위한 개념
 - **Entity**는 데이터베이스 테이블과 매핑되는 특수한 유형의 Model

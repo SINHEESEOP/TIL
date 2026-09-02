@@ -2,7 +2,7 @@
 
 스프링 프레임워크의 핵심 개념들을 다루는 디렉토리입니다.
 
-## 📑 목차
+## 목차
 
 ### 컨테이너
 - [Spring Container](./Container/README.md)
@@ -16,7 +16,7 @@
 - [Dependency Injection](./Injection/README.md)
   - [Field Injection and Test Issues](./Injection/FieldInjectionAndTestIssues.md) - @Autowired 필드 주입의 문제점과 테스트에서의 활용 방안
 
-## 🔑 주요 개념
+## 주요 개념
 
 - 의존성 주입 (Dependency Injection)
 - 제어의 역전 (Inversion of Control)
@@ -24,7 +24,7 @@
 - 컨테이너와 빈 라이프사이클
 - 트랜잭션 관리
 
-## 💡 학습 목표
+## 학습 목표
 
 - 스프링 프레임워크의 핵심 원리 이해
 - 효율적인 애플리케이션 구조 설계

@@ -70,7 +70,7 @@ public class MemberConstruct {
 
 ```java
 public MemberConstruct(String name, int age) {
-    System.out.println("생성자 시작");  // ⚠️ this() 앞에 코드가 있으면 오류 발생
+    System.out.println("생성자 시작"); // this() 앞에 코드가 있으면 오류 발생
     this(name, age, 50);
 ```
 ### this 사용 TIP

@@ -1,6 +1,6 @@
-# 🌐 HTTP와 웹
+# HTTP와 웹
 
-## 🔗 URI, 웹 브라우저 요청 흐름, 클라이언트 서버 구조
+## URI, 웹 브라우저 요청 흐름, 클라이언트 서버 구조
 
 ### URI (Uniform Resource Identifier)
 - URI는 인터넷 상의 자원을 식별하기 위한 통일된 방식입니다.
@@ -44,7 +44,7 @@ scheme://[userinfo@]host[:port][/path][?query][#fragment]
 - 양쪽이 독립적으로 발전 가능 (서로의 내부 구현을 모름)
 - 클라이언트와 서버는 서로 다른 기술 스택을 사용할 수 있음
 
-## 🔄 Stateful, Stateless와 비연결성
+## Stateful, Stateless와 비연결성
 
 ### Stateful (상태 유지)
 - 서버가 클라이언트의 상태를 기억하는 방식입니다.
@@ -77,7 +77,7 @@ scheme://[userinfo@]host[:port][/path][?query][#fragment]
 - HTTP 지속 연결 (Persistent Connections)
 - HTTP/2, HTTP/3의 다중 요청/응답 처리
 
-## 🛠️ HTTP 메서드
+## HTTP 메서드
 
 HTTP 메서드는 클라이언트가 서버에게 요청의 목적과 종류를 알려주는 방법입니다.
 

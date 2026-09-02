@@ -1,8 +1,8 @@
-# 💻 Computer Science
+# Computer Science
 
 컴퓨터 과학의 기본 개념과 이론을 학습하고 정리하는 공간입니다.
 
-## 📚 주요 카테고리
+## 주요 카테고리
 
 ### [데이터 구조](./DataStructure/README.md) - 다양한 데이터 구조의 개념과 구현
   - [자료구조 개념서](./DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)

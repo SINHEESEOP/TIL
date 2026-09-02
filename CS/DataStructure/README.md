@@ -2,7 +2,7 @@
 
 > **"순서대로 읽으면 알아서 이해되게끔 구성하였다."**
 
-## 📂 폴더 구조 (4단계 철학 기반)
+## 폴더 구조 (4단계 철학 기반)
 
 이 폴더는 [자료구조 개념서](./00_Core_Concept/자료구조_개념서.md)의 **4단계 정의법**에 따라 구성되어 있습니다.
 
@@ -14,7 +14,7 @@
 | `03_Structure` | 3~3.5단계 | **논리적 설계** : "어떻게 구성하는가?" (자료구조) |
 | `04_Implementation` | 4단계 | **구현체** : "코드로 어떻게 짰는가?" (Java 등) |
 
-## 📚 상세 목차
+## 상세 목차
 
 ### 0. 핵심 철학
 - [자료구조 개념서](./00_Core_Concept/자료구조_개념서.md) - 4단계 정의법, ADT vs 자료구조 vs 구현체
@@ -41,7 +41,7 @@
 - [Java_Hashtable](./04_Implementation/java/Java_Hashtable.md) - 레거시 Hashtable 클래스 분석
 - [Java_LinkedHashMap](./04_Implementation/java/Java_LinkedHashMap.md) - 순서를 기억하는 Map
 
-## 🔍 학습 순서 권장
+## 학습 순서 권장
 
 1. **00_Core_Concept** 먼저 읽기 → 자료구조의 본질 이해
 2. **01_Physical_Basis** → 모든 자료구조의 근본(배열/연결) 파악

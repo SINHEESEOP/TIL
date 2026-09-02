@@ -1,11 +1,11 @@
-# 🌐 Web Development
+# Web Development
 
 이 섹션은 웹 개발과 관련된 다양한 개념, 기술, 프레임워크에 대한 학습 내용을 정리한 공간입니다.
 
-## 🎯 Why Here?
+## Why Here?
 웹 개발은 현대 소프트웨어 개발의 핵심 영역 중 하나입니다. 이 섹션에서는 웹 개발의 기초부터 고급 주제까지 다양한 내용을 다룹니다.
 
-## 📚 Contents
+## Contents
 
 ### 기초 개념
 - [웹 서버 아키텍처 비교](./basics/web_server_architecture_comparison.md)
@@ -23,13 +23,13 @@
 - [HTTP 메서드](./network/http_methods.md) - GET, POST, PUT, PATCH, DELETE 등 HTTP 메서드 활용
 - [멱등성과 안전성](./network/idempotency_and_safety.md) - 멱등성(Idempotency)과 그보다 더 엄격한 상위 개념인 안전성(Safety)
 
-## 🔍 Learning Goals
+## Learning Goals
 1. 웹 개발의 기본 개념과 아키텍처 이해
 2. 다양한 웹 프레임워크와 라이브러리 학습
 3. 프론트엔드와 백엔드 개발 기술 습득
 4. 웹 보안, 성능 최적화, 확장성 등 고급 주제 탐구
 
-## 🛠️ Related Technologies
+## Related Technologies
 - HTML, CSS, JavaScript
 - React, Vue, Angular
 - Node.js, Express

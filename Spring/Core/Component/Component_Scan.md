@@ -2,7 +2,7 @@
 
 컴포넌트 스캔은 스프링이 빈을 자동으로 등록하기 위한 메커니즘입니다. 개발자가 직접 `@Bean`으로 등록하지 않아도 스프링이 클래스패스를 스캔하여 자동으로 스프링 빈을 등록합니다.
 
-## 📋 기본 개념
+## 기본 개념
 
 ### 1. 컴포넌트 스캔과 의존관계 자동 주입
 
@@ -42,7 +42,7 @@ public class MemberServiceImpl implements MemberService {
 - `basePackageClasses`: 지정한 클래스의 패키지를 탐색 시작 위치로 지정
 - 지정하지 않으면: 설정 정보 클래스(`@ComponentScan`이 붙은 클래스)의 패키지가 시작 위치
 
-#### 📌 실무 팁
+#### 실무 팁
 - 패키지 위치를 지정하지 않고, 설정 정보 클래스를 프로젝트 최상단에 두는 것이 권장됨
 - 스프링 부트의 `@SpringBootApplication`에 이미 `@ComponentScan` 포함
 
@@ -58,11 +58,11 @@ public class MemberServiceImpl implements MemberService {
 | `@Repository` | 데이터 접근 계층 | 데이터 계층 예외를 스프링 예외로 변환 |
 | `@Configuration` | 설정 정보 | 스프링 설정 정보로 인식, 싱글톤 유지 |
 
-#### 💾 @Repository의 예외 변환 기능 상세 설명
+#### @Repository의 예외 변환 기능 상세 설명
 
 `@Repository` 애노테이션의 가장 중요한 기능은 **데이터 접근 예외를 스프링의 추상화된 예외로 변환**해주는 것입니다.
 
-##### 왜 예외 변환이 필요한가? 🤔
+##### 왜 예외 변환이 필요한가?
 
 데이터베이스마다 발생하는 예외와 에러 코드는 모두 다릅니다:
 
@@ -84,9 +84,9 @@ try {
 }
 ```
 
-이렇게 작성하면 DB를 변경할 때마다 모든 예외 처리 코드를 수정해야 합니다! 😱
+이렇게 작성하면 DB를 변경할 때마다 모든 예외 처리 코드를 수정해야 합니다!
 
-##### 스프링의 해결책 💡
+##### 스프링의 해결책
 
 `@Repository` 애노테이션을 사용하면 스프링이 자동으로 다음과 같은 처리를 해줍니다:
 
@@ -102,7 +102,7 @@ MySQL의 Error 1062 → DataIntegrityViolationException
 PostgreSQL의 Error 23505 → DataIntegrityViolationException
 ```
 
-##### 실제 코드 예시 📝
+##### 실제 코드 예시
 
 **변환 전 (DB 종속적):**
 ```java
@@ -156,7 +156,7 @@ public class MemberService {
 }
 ```
 
-##### 실무적 이점 🚀
+##### 실무적 이점
 
 1. **DB 변경에 유연하게 대응**
    - Oracle에서 MySQL로 DB가 바뀌어도 예외 처리 코드 변경 불필요
@@ -210,7 +210,7 @@ public @interface Service {
   Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
   ```
 
-## 💡 실무 적용 팁
+## 실무 적용 팁
 
 1. **프로젝트 구조** - 프로젝트 시작 루트 위치에 메인 설정 클래스를 두고 `@ComponentScan` 적용
    ```
@@ -246,7 +246,7 @@ public @interface Service {
    }
    ```
 
-## 🔍 정리
+## 정리
 
 - 컴포넌트 스캔은 자동으로 스프링 빈을 등록하는 편리한 기능
 - `@Autowired`를 통한 의존관계 자동 주입으로 개발 효율성 증가

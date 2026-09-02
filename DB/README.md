@@ -1,8 +1,8 @@
-# 🗃️ Database
+# Database
 
 데이터베이스 기본 개념과 기술을 학습하고 정리하는 공간입니다.
 
-## 📚 주요 카테고리
+## 주요 카테고리
 
 ### 데이터베이스 연결 및 관리
 - [Connection Pool](./ConnectionPool.md) - 커넥션 풀의 개념과 장단점 분석

@@ -1,11 +1,11 @@
-# ❓ Java Questions & Answers
+# Java Questions & Answers
 
 이 섹션은 Java 학습 과정에서 생긴 궁금증과 그에 대한 답변을 정리한 공간입니다.
 
-## 🎯 Why This Section?
+## Why This Section?
 Java 101을 공부하면서 기본 교재나 강의에서 다루지 않는 심층적인 질문들이 생겼습니다. 이 섹션은 그런 질문들에 대한 답을 찾고 정리하여 더 깊은 이해를 돕기 위해 만들어졌습니다.
 
-## 🔍 카테고리
+## 카테고리
 
 ### 개념 관련 질문
 - [Why Child Type Cannot Reference Parent Type](./concepts/why_child_cannot_reference_parent.md) - 자식 타입이 부모 타입을 참조할 수 없는 이유에 대한 설명
@@ -28,7 +28,7 @@ Java 101을 공부하면서 기본 교재나 강의에서 다루지 않는 심�
 - [디자인 패턴 적용](./best_practices/design_patterns.md)
 - [테스트 전략](./best_practices/testing.md) -->
 
-## 📝 문서 형식
+## 문서 형식
 
 각 질문 문서는 다음과 같은 형식으로 작성됩니다:
 
@@ -47,7 +47,7 @@ Java 101을 공부하면서 기본 교재나 강의에서 다루지 않는 심�
 ```
 
 
-## 🔄 기여 방법
+## 기여 방법
 - 새로운 질문이 있다면 적절한 카테고리에 문서를 추가해주세요.
 - 기존 답변에 추가할 내용이 있다면 해당 문서를 업데이트해주세요.
 - 모든 코드 예제는 실행 가능한 형태로 작성해주세요. 
