@@ -34,6 +34,7 @@
   * [CPU Clock, Core, Thread](./CS/Computer_Structure/cpu_clock_core_thread.md) - CPU 클럭 동작 원리와 멀티코어/멀티스레드 개념
   * [Structure of Assembly Instructions](./CS/Computer_Structure/StructureOfassembly_instructions.md) - 어셈블리 명령어 구조
   * [Source Code and Commands](./CS/Computer_Structure/SourceCode_and_Command.md) - 소스코드 실행 과정
+  * [Instruction Level Parallelism](./CS/Computer_Structure/instruction_level_parallelism.md) - 명령어 병렬 처리 기법 (파이프라이닝, 슈퍼스칼라, 비순차적 처리)
   * [Computer Architecture Overview](./CS/Computer_Structure/TheBigPictureOfComputerArchitecture.md) - 컴퓨터 구성 요소 및 기본 구조 개요
   * [ALU and Control Unit](./CS/Computer_Structure/ArithmeticLogicUnit_and_ControlUnit.md) - 산술논리연산장치와 제어장치의 구조 및 역할
   * [Interrupt 및 예외 요약](./CS/Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
@@ -95,6 +96,7 @@
     * [URIAndWebRequestFlow](./Web/network/uri_and_web_request_flow.md) - URI, 웹 브라우저 요청 흐름
     * [StatefulStateless](./Web/network/stateful_stateless.md) - Stateful, Stateless와 비연결성
     * [HTTPMethods](./Web/network/http_methods.md) - HTTP 메서드
+    * [IdempotencyAndSafety](./Web/network/idempotency_and_safety.md) - 멱등성과 그보다 더 엄격한 상위 개념인 안전성(Safety)
 
 ## Spring 🌱
 
@@ -171,5 +173,17 @@
 * [Troubleshooting](./Troubleshooting/README.md) - 트러블슈팅
   * [java.lang.NullPointerException at UserService.login](./Troubleshooting/java.lang.NullPointerException_at_UserService_login.md)
   * [JPA N+1 Post List Select](./Troubleshooting/JPA_NPlusOne_Post_List_Select.md)
+
+## Claude Code 🤖
+
+* [Claude](./Claude/README.md) - Claude Code 사용법과 개념 정리
+  * [기본 사용법](./Claude/기본사용법.md) - Claude Code가 뭐고 어떻게 동작하는지, 기본 개념
+  * [권한 모드](./Claude/권한모드.md) - 도구 실행을 얼마나 자동으로 승인할지 정하는 설정
+  * [서브에이전트](./Claude/서브에이전트.md) - 작업을 별도 에이전트에 위임하는 방식
+  * [훅](./Claude/훅.md) - 특정 이벤트에 맞춰 자동으로 명령을 실행하는 설정
+  * [스킬](./Claude/스킬.md) - 슬래시 커맨드로 불러쓰는 재사용 가능한 작업 절차
+  * [MCP 서버](./Claude/MCP서버.md) - 외부 도구와 서비스를 연결하는 표준 프로토콜
+  * [프로젝트 메모리](./Claude/프로젝트메모리.md) - CLAUDE.md와 자동 메모리로 규칙과 교훈을 남기는 방법
+  * [여러 세션으로 작업하기](./Claude/여러세션으로작업하기.md) - 한 프로젝트에서 세션을 여러 개 켜고 작업하는 방법론과 장단점
 
 

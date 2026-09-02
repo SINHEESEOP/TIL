@@ -54,7 +54,7 @@
   - [JVMMemoryAndStatic](./Java/101/jvm_memory_and_static.md) - JVM 메모리와 정적 요소
   - [DifferentMachineInterpretationByOS](./Java/101/why_different_machine_interpretation_by_os.md) - OS별 머신 해석 차이
   - [FinalModifiers](./Java/101/final_modifiers.md) - final 제어자 활용
-  - [InheritanceAndSuper](./Java/101/inheritance_and_super.md) - 상속과 super 키워드
+  - [InheritanceAndSuper](./Java/101/Inheritance_and_super.md) - 상속과 super 키워드
   - [ObjectComparison](./Java/101/objectComparison.md) - 객체 비교 (== vs equals())
 - [JavaAdvanced](./Java/Java_Advanced/README.md) - 자바 고급 기능과 설계 패턴
   - [JavaBeanPropertyConvention](./Java/Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈 프로퍼티 규약
