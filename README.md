@@ -2,9 +2,9 @@
 
 개발 공부를 하면서 배운 내용을 정리하는 저장소입니다. 모든 내용은 GitBook을 통해 더 편리하게 볼 수 있습니다.
 
-## 📚 주요 카테고리
+## 주요 카테고리
 
-### CS (Computer Science)
+### CS (Computer Science) 💻
 - [Data Structure](./CS/DataStructure/README.md) - 데이터 구조
   - [자료구조 개념서](./CS/DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
   - **01_Physical_Basis** (물리적 기반)
@@ -42,7 +42,7 @@
   - [Interrupt 및 예외 요약](./CS/Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
 - [Operating System](./CS/Operating_System/README.md) - 운영체제
 
-### Java
+### Java ☕
 - [Java](./Java/README.md) - 자바 프로그래밍 언어 학습 정리
 - [Java101](./Java/101/README.md) - 자바 언어의 기본 개념과 문법
   - [JavaBasics](./Java/101/java_basics.md) - 자바 기초 문법
@@ -64,7 +64,7 @@
   - [WhyChildTypeCannotReferenceParentType](./Java/QnA/concepts/why_child_cannot_reference_parent.md) - 자식 타입이 부모 타입을 참조할 수 없는 이유
   - [Interface vs Abstract Class](./Java/QnA/interface_vs_abstract.md) - 인터페이스와 추상클래스의 차이점 분석
 
-### Spring
+### Spring 🌱
 - [Spring101](./Spring/101/README.md) - Spring Framework 입문과 기본 개념
   - [SpringOverview](./Spring/101/spring_overview.md) - 스프링 프레임워크 개요
   - [SpringBootProjectSetup](./Spring/101/spring_boot_project_setup.md) - 스프링 부트 프로젝트 설정
@@ -104,7 +104,7 @@
   - [Lombok](./Spring/Tools/Lombok/README.md) - 자바 코드 간소화를 위한 어노테이션 도구
     - [LombokGuide](./Spring/Tools/Lombok/LombokGuide.md) - Lombok 완벽 가이드
 
-### C++
+### C++ 🔧
 - [CPP101](./C++/101/README.md) - C++ 언어 기초와 메모리 관리
   - [OverviewAndHistory](./C++/101/cpp_overview_and_history.md) - C++ 개요와 역사
   - [DevelopmentEnvironment](./C++/101/cpp_development_environment.md) - 개발 환경 설정
@@ -115,7 +115,7 @@
   - [MemoryManagement](./C++/101/cpp_memory_management.md) - 메모리 관리
   - [SeparateCompilation](./C++/101/cpp_separate_compilation.md) - 분할 컴파일
 
-### Web
+### Web 🌐
 - [WebDevelopment](./Web/README.md) - 웹 개발 기초와 서블릿 아키텍처
   - [Web101](./Web/basics/README.md) - 웹 개발 기초
     - [ServletAndWASArchitecture](./Web/basics/servlet_was_architecture.md) - 서블릿과 WAS 구조
@@ -136,7 +136,7 @@
   - [BasicEnglish](./English/basics/README.md) - 기초 영어
   - [PracticalEnglish](./English/practical/README.md) - 실용 영어 -->
 
-### Database
+### Database 🗃️
 - [Database](./DB/README.md) - 데이터베이스 기본 개념과 기술
   - [Connection Pool](./DB/ConnectionPool.md) - 커넥션 풀의 개념과 장단점 분석
   - [Data Source](./DB/DataSource.md) - 데이터 소스 설정 및 관리
@@ -147,21 +147,21 @@
   - [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점 분석
   - [Spring DB Exception Abstraction](./DB/SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
 
-### DevOps
+### DevOps 🚀
 - [DevOps](./DevOps/README.md) - 데옵스 및 인프라 기본 개념과 기술
   - [Docker](./DevOps/Docker/README.md) - 도커(Docker) 컨테이너 가상화 기술
 
-### Terminology (용어 정리)
+### Terminology (용어 정리) 📖
 - [Terminology](./Terminology/README.md) - 용어 정리 노트
   - 용어의 어원/기원, 일상·타 업계·개발 업계(개발자/QA/PM)에서의 사용법, 나만의 정의 정리
   - [Module](./Terminology/Module.md) - 모듈(부품 vs 규격, 인터페이스와의 관계)
 
-### Troubleshooting
+### Troubleshooting 🐛
 - [Troubleshooting](./Troubleshooting/README.md) - 트러블슈팅 정리
   - [java.lang.NullPointerException at UserService.login](./Troubleshooting/java.lang.NullPointerException_at_UserService_login.md)
   - [JPA N+1 Post List Select](./Troubleshooting/JPA_NPlusOne_Post_List_Select.md)
 
-### Claude Code
+### Claude Code 🤖
 - [Claude](./Claude/README.md) - Claude Code 사용법과 개념 정리
   - [기본 사용법](./Claude/기본사용법.md) - Claude Code가 뭐고 어떻게 동작하는지, 기본 개념
   - [권한 모드](./Claude/권한모드.md) - 도구 실행을 얼마나 자동으로 승인할지 정하는 설정

@@ -1,10 +1,10 @@
-# 📑 Summary
+# Summary
 
 # Table of contents
 
 * [TodayILearned](./README.md) - 오늘 배운 것
 
-## CS (Computer Science)
+## CS (Computer Science) 💻
 
 * [DataStructure](./CS/DataStructure/README.md) - 데이터 구조
   * [자료구조 개념서](./CS/DataStructure/00_Core_Concept/자료구조_개념서.md) - 자료구조의 근본과 이해 (4단계 정의법)
@@ -39,7 +39,7 @@
   * [Interrupt 및 예외 요약](./CS/Computer_Structure/interrupt.md) - CPU 인터럽트와 예외(동기/비동기) 처리 개념 요약
 * [Operating System](./CS/Operating_System/README.md) - 운영체제
 
-## Java
+## Java ☕
 
 * [Java](./Java/README.md) - 자바 학습 노트
 * [Java101](./Java/101/README.md) - 자바 101
@@ -68,7 +68,7 @@
   * [Syntax](./Java/QnA/syntax) - 문법 관련 질문 (예정)
   * [BestPractices](./Java/QnA/best_practices) - 모범 사례 질문 (예정)
 
-## C++
+## C++ 🔧
 
 * [CPP101](./C++/101/README.md) - C++ 101
   * [OverviewAndHistory](./C++/101/cpp_overview_and_history.md) - 개요와 역사
@@ -80,7 +80,7 @@
   * [MemoryManagement](./C++/101/cpp_memory_management.md) - 메모리 관리
   * [SeparateCompilation](./C++/101/cpp_separate_compilation.md) - 분할 컴파일
 
-## Web
+## Web 🌐
 
 * [WebDevelopment](./Web/README.md) - 웹 개발
   * [Web101](./Web/basics/README.md) - 웹 기초
@@ -96,7 +96,7 @@
     * [StatefulStateless](./Web/network/stateful_stateless.md) - Stateful, Stateless와 비연결성
     * [HTTPMethods](./Web/network/http_methods.md) - HTTP 메서드
 
-## Spring
+## Spring 🌱
 
 * [Spring101](./Spring/101/README.md) - 스프링 101
   * [SpringBootProjectSetup](./Spring/101/spring_boot_project_setup.md) - 스프링 부트 프로젝트 설정
@@ -143,7 +143,7 @@
   * [BasicEnglish](./English/basics/README.md) - 기초 영어
   * [PracticalEnglish](./English/practical/README.md) - 실용 영어 -->
 
-## Database
+## Database 🗃️
 
 * [Database](./DB/README.md) - 데이터베이스
   * [Connection Pool](./DB/ConnectionPool.md) - 커넥션 풀의 개념과 장단점 분석
@@ -155,18 +155,18 @@
   * [SQL Mapper and ORM](./DB/SQLMapper_and_ORM.md) - SQL Mapper와 ORM의 개념 및 차이점
   * [Spring DB Exception Abstraction](./DB/SpringDB_예외추상화.md) - Spring의 데이터베이스 예외 추상화와 체크예외 문제 해결
 
-## DevOps
+## DevOps 🚀
 
 * [DevOps](./DevOps/README.md) - 데옵스 및 인프라
   * [Docker](./DevOps/Docker/README.md) - 도커 컨테이너 기술
 
-## Terminology (용어 정리)
+## Terminology (용어 정리) 📖
 
 * [Terminology](./Terminology/README.md) - 용어 정리 노트
   * 용어의 어원/기원, 일상·타 업계·개발 업계(개발자/QA/PM)에서의 사용법, 나만의 정의 정리
   * [Module](./Terminology/Module.md) - 모듈(부품 vs 규격, 인터페이스와의 관계)
 
-## Troubleshooting
+## Troubleshooting 🐛
 
 * [Troubleshooting](./Troubleshooting/README.md) - 트러블슈팅
   * [java.lang.NullPointerException at UserService.login](./Troubleshooting/java.lang.NullPointerException_at_UserService_login.md)
