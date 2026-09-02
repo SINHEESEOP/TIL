@@ -174,7 +174,7 @@
   * [java.lang.NullPointerException at UserService.login](./Troubleshooting/java.lang.NullPointerException_at_UserService_login.md)
   * [JPA N+1 Post List Select](./Troubleshooting/JPA_NPlusOne_Post_List_Select.md)
 
-## Claude Code 🤖
+## AI Agent 🤖
 
 * [Claude](./Claude/README.md) - Claude Code 사용법과 개념 정리
   * [기본 사용법](./Claude/기본사용법.md) - Claude Code가 뭐고 어떻게 동작하는지, 기본 개념
