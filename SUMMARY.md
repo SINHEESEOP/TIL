@@ -60,6 +60,7 @@
 * [JavaAdvanced](./Java/Java_Advanced/README.md) - 자바 고급
   * [JavaBeanPropertyConvention](./Java/Java_Advanced/JavaBeanPropertyConvention.md) - 자바빈 프로퍼티 규약
   * [자바-람다-동작원리와-함수형-개념](./Java/Java_Advanced/자바-람다-동작원리와-함수형-개념.md) - Java에서의 함수형 패러다임: 람다의 내부 동작 원리와 일급 객체·고차 함수·동작 파라미터화의 관계
+  * [자바LTS버전별변경사항](./Java/Java_Advanced/자바LTS버전별변경사항.md) - Java 8부터 25까지 LTS 버전별 핵심 변경사항과 비LTS 버전 요약
 
 * [JavaQnA](./Java/QnA/README.md) - 자바 Q&A
   * [Concepts](./Java/QnA/concepts) - 개념 관련 질문
